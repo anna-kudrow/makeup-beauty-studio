@@ -1,0 +1,28 @@
+@import "../vars";
+
+.portfolio {
+  padding: 75px 23% 35px 15%;
+}
+
+.portfolio__title {
+  color: $main-text;
+  margin-bottom: 10px;
+}
+
+.portfolio__item {
+  max-width: 265px;
+}
+.portfolio____cover-img {
+  max-width: 265px;
+}
+
+.portfolio__cover-img img {
+  width: 100%;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}

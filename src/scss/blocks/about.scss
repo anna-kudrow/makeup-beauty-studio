@@ -1,0 +1,56 @@
+@import "../vars";
+
+.about {
+  padding: 11px 14px 30px 64px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(236, 212, 250),
+    rgb(244, 214, 231)
+  );
+}
+
+.about__inner {
+  max-width: 550px;
+  margin: 0 auto;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.about__small-title {
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 815px;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  margin-bottom: 15px;
+}
+
+// .about__text-box {
+//   grid-column: 1/3;
+// }
+
+.photo-anastasiya-box img,
+.photo-svetlana-box img {
+  width: 100%;
+  border-radius: 4px;
+  height: 240px;
+}
+
+.photo-anastasiya-box,
+.photo-svetlana-box {
+  max-width: 165px;
+  max-height: 240px;
+}
+
+.about__anastasiya{
+  margin-bottom: 40px;
+}

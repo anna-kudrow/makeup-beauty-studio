@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: rgb(249, 243, 249);
+  color: #583939;
+  font-family: "Involve";
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title {
+  font-family: "Caveat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #b70114;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=global.css.map */
