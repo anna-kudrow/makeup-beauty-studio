@@ -1,7 +1,7 @@
 @import "./vars";
 @import "./global";
-@import "./blocks/header";
-@import "./blocks/promo";
+@import "../components/Header/Header.scss";
+@import "../components/Main/Promo/Promo.scss";
 @import "./fonts";
 @import "./blocks/about";
 @import "./blocks/portfolio";

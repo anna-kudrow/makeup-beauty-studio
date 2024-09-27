@@ -28,7 +28,7 @@ export const Footer = () => {
               <div className="footer__contacts">
                 <ul className="contacts__list">
                   <li className="contacts__item"><a href="tel:+79037522505">8-903-752-25-05</a></li>
-                  <li className="contacts__item">Москва, ст.м. Коломенская</li>
+                  <li className="contacts__item">г. Москва, ул. Высокая 8, 1 этаж</li>
                 </ul>
               </div>
             </div>
