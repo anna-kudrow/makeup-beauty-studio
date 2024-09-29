@@ -1,4 +1,4 @@
-
+// import insta from '../../../public/images/insta.svg';
 
 export const Header = () => {
   return (

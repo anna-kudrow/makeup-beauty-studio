@@ -52,7 +52,7 @@
     display: block;
     width: 25px;
     height: 25px;
-    background-image: url(../images/insta.svg);
+    background-image: url(./images/insta.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,7 +69,7 @@
 .header__menu {
     width: 25px;
     height: 25px;
-    background-image: url(../images/burger.svg);
+    background-image: url(./images/burger.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,6 +96,19 @@
         width: 27px;
         height: 27px;
     }
+}
 
-    
+@media (min-width: 1440px) {
+
+    .header {
+        padding: 40px 30px 50px;
+    }
+
+    .logo-link__upper {
+          font-size: 20px;
+    }
+
+    .logo-link__bottom{
+        font-size: 16px;
+    }
 }
