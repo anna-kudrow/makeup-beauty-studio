@@ -2,7 +2,7 @@
 
 export const Adv = () => {
   return (
-    <section className="adv">
+    <section className="adv" id='advantages'>
             <div className="adv__inner"> 
               <h2 className="adv__title title">Вы можете довериться нам</h2>
               <ul className="adv__list">

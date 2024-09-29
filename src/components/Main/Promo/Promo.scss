@@ -131,6 +131,55 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .promo {
+        padding: 0px 40px;
+        height: 95vh;
+        box-sizing: border-box;
+
+        &__grid {
+            grid-template-columns: 570px 347px 448px;
+            grid-template-rows: 1fr;
+        }
+
+        &__title--brown-color {
+            font-size: 64px;
+        }
+
+        &__title--brown-color:last-of-type {
+            font-size: 96px;
+            top: 60px;
+            left: 25px;
+        }
+
+        &__title-name {
+          font-size: 60px;
+        }
+
+        &__photo1-wrapper {
+            padding-top: 0;
+        }
+
+        &__photo1 {
+            width: 347px;
+            height: 496px;
+        }
+
+        &__photo1 img {
+            border-radius: 11px;
+        }
+
+        &__photo2 img {
+            border-radius: 11px;
+        }
+
+
+    }
+}
+
+
+
+
 
 
 

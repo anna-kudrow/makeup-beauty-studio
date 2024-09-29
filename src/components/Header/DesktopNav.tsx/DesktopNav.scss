@@ -1,0 +1,25 @@
+@import '../../../scss/vars.scss';
+
+.desktop-menu {
+    display: none;
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        gap: 50px;
+    }
+    &__link {
+        color: $rouge;
+        font-size: 20px;
+        font-style: normal;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1440px) {
+    .desktop-menu {
+        display: initial;
+    }
+}
+

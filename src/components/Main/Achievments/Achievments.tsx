@@ -2,7 +2,7 @@
 
 export const Achievments = () => {
   return (
-    <section className="achievements">
+    <section className="achievements" id='achievments'>
             <div className="achievements__inner">
               <h2 className="achievements__title title">Достижения</h2>
               <ul className="achievements__list">
