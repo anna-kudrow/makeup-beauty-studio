@@ -6,9 +6,11 @@ export const Promo = () => {
             <div className="promo__inner">
               <div className="promo__grid">
                 <div className="promo__title-box">
-                  <span className="promo__title--rouge-color">макияж</span>
-                  <span className="promo__title--brown-color">прически</span>
-                  <span className="promo__title--brown-color">стиль</span>
+                  <div className="promo__title-wrapper">
+                    <span className="promo__title--rouge-color">макияж</span>
+                    <span className="promo__title--brown-color up">прически</span>
+                    <span className="promo__title--brown-color bottom">стиль</span>
+                  </div>
                   <div className="promo__title-name__wrapper">
                     <span className="promo__title-name slide-in-blurred-bottom"
                       >Boyarinova_studio</span>
