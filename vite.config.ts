@@ -7,4 +7,3 @@ export default defineConfig({
   // base: '/boyarinova-studio/public_html/',
 })
 
-// /makeup-beauty-studio/
