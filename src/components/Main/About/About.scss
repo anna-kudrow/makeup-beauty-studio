@@ -1,4 +1,4 @@
-@import "../vars";
+@import "../../../scss/vars.scss";
 
 .about {
   padding: 11px 14px 30px 64px;
@@ -34,10 +34,6 @@
   margin-bottom: 15px;
 }
 
-// .about__text-box {
-//   grid-column: 1/3;
-// }
-
 .photo-anastasiya-box img,
 .photo-svetlana-box img {
   width: 100%;
@@ -51,6 +47,50 @@
   max-height: 240px;
 }
 
-.about__anastasiya{
+.about__anastasiya {
   margin-bottom: 40px;
+}
+
+@media (min-width: 1440px) {
+  .about {
+    padding: 80px 40px;
+  }
+
+  .about__inner {
+    max-width: none;
+  }
+
+  .about__box {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .about__info-content {
+    width: 460px;
+    order: 1;
+  }
+
+  .about__anastasiya {
+    display: flex;
+    gap: 15px;
+  }
+
+  .about__svetlana {
+    display: flex;
+    gap: 15px;
+  }
+
+  .about__title {
+    margin-bottom: 50px;
+  }
+
+  .about__small-title {
+    font-size: 19px;
+    margin-bottom: 7px;
+  }
+
+  .about__text {
+    font-size: 19px;
+  }
 }

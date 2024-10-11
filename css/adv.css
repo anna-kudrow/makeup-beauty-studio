@@ -13,7 +13,12 @@
 }
 
 .adv__item {
-  background: linear-gradient(157deg, rgb(238, 199, 252) 0%, rgb(187, 184, 227) 35%, rgb(243, 233, 253) 100%);
+  background: linear-gradient(
+    157deg,
+    rgb(238, 199, 252) 0%,
+    rgb(187, 184, 227) 35%,
+    rgb(243, 233, 253) 100%
+  );
   border-radius: 4px;
   border: 0.8px solid rgba(208, 198, 246, 0.75);
   padding: 20px;
@@ -77,4 +82,4 @@
   width: 30px;
   height: 35px;
   background-image: url(../../images/car.svg);
-}/*# sourceMappingURL=adv.css.map */
+} /*# sourceMappingURL=adv.css.map */

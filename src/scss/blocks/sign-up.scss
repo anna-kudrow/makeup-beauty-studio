@@ -1,53 +1,57 @@
-@import '../vars.scss';
+@import "../vars.scss";
 
-.sign-up{
-    background-image: url(./images/sign-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.sign-up {
+  background-image: url(./images/sign-up.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.sign-up__inner{
-    padding: 10px 0 47px 15%;
+.sign-up__inner {
+  padding: 10px 0 47px 15%;
 }
 
-.sign-up__title{
-    margin-bottom: 0;
+.sign-up__title {
+  margin-bottom: 0;
 }
 
-.sign-up__text{
-    font-size: 13px;
+.sign-up__text {
+  font-size: 13px;
 }
 
-.sign-up__form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .sign-up__input:last-of-type {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
-.sign-up__input, .sign-up__btn {
-    width: 167px;
-    height: 34px; 
-    border-radius: 40px;
-    border: none;
-    background: rgba(102, 0, 102, 0.15);
-    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 68px 0px rgba(255, 255, 255, 0.05) inset;
-    backdrop-filter: blur(7.5px);  
-    text-align: center;
-    color: $light-brown;
-    padding: 0 20px;
-    box-sizing: border-box;
+.sign-up__input,
+.sign-up__btn {
+  width: 167px;
+  height: 34px;
+  border-radius: 40px;
+  border: none;
+  background: rgba(102, 0, 102, 0.15);
+  box-shadow:
+    0px 4px 4px 0px rgba(255, 255, 255, 0.15) inset,
+    0px 0px 68px 0px rgba(255, 255, 255, 0.05) inset;
+  backdrop-filter: blur(7.5px);
+  text-align: center;
+  color: $light-brown;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.sign-up__input::placeholder, .sign-up__btn{
-    font-family: 'Involve';
-    font-size: 10px;
-    line-height: normal;
+.sign-up__input::placeholder,
+.sign-up__btn {
+  font-family: "Involve";
+  font-size: 10px;
+  line-height: normal;
 }
 
-.sign-up__btn{
-    cursor: pointer;
+.sign-up__btn {
+  cursor: pointer;
 }

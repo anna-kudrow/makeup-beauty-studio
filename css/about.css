@@ -1,6 +1,10 @@
 .about {
   padding: 11px 14px 30px 64px;
-  background-image: linear-gradient(to bottom right, rgb(236, 212, 250), rgb(244, 214, 231));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(236, 212, 250),
+    rgb(244, 214, 231)
+  );
 }
 
 .about__inner {
@@ -43,4 +47,4 @@
 
 .about__anastasiya {
   margin-bottom: 40px;
-}/*# sourceMappingURL=about.css.map */
+} /*# sourceMappingURL=about.css.map */

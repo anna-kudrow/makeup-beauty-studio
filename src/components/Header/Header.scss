@@ -49,12 +49,12 @@
 }
 
 .instagram-link {
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-image: url(./images/insta.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(./images/insta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .phone-num {
@@ -67,64 +67,63 @@
 }
 
 .header__menu {
-    width: 25px;
-    height: 25px;
-    background-image: url(./images/burger.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 25px;
+  height: 25px;
+  background-image: url(./images/burger.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
-    .logo-link__upper {
-        font-size: 16px;
-    }
+  .logo-link__upper {
+    font-size: 16px;
+  }
 
-    .logo-link__bottom{
-        font-size: 13px;
-    }
+  .logo-link__bottom {
+    font-size: 13px;
+  }
 
-    .instagram-link {
-        width: 27px;
-        height: 27px;
-    }
+  .instagram-link {
+    width: 27px;
+    height: 27px;
+  }
 
-    .phone-num {
-        font-size: 16px;
-    }
+  .phone-num {
+    font-size: 16px;
+  }
 
-    .header__menu {
-        width: 27px;
-        height: 27px;
-    }
+  .header__menu {
+    width: 27px;
+    height: 27px;
+  }
 }
 
 @media (min-width: 1440px) {
+  .header {
+    padding: 40px 40px 110px;
+  }
 
-    .header {
-        padding: 40px 30px 50px;
-    }
+  .header__contacts {
+    gap: 20px;
+  }
 
-    .header__contacts {
-        gap: 20px;
-    }
+  .logo-link__upper {
+    font-size: 20px;
+  }
 
-    .logo-link__upper {
-        font-size: 20px;
-    }
+  .logo-link__bottom {
+    font-size: 16px;
+  }
 
-    .logo-link__bottom {
-        font-size: 16px;
-    }
+  .header__menu {
+    display: none;
+  }
 
-    .header__menu {
-        display: none;
-    }
+  .phone-num {
+    font-size: 20px;
+  }
 
-    .phone-num {
-        font-size: 20px;
-    }
-
-    .header__right-box {
-        gap: 70px;
+  .header__right-box {
+    gap: 70px;
   }
 }
