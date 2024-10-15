@@ -53,7 +53,7 @@
 
 @media (min-width: 1440px) {
   .about {
-    padding: 80px 40px;
+    padding: 100px 90px 175px;
   }
 
   .about__inner {
@@ -82,7 +82,7 @@
   }
 
   .about__title {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   .about__small-title {
@@ -92,5 +92,18 @@
 
   .about__text {
     font-size: 19px;
+  }
+
+  .photo-anastasiya-box img,
+  .photo-svetlana-box img {
+    height: 100%;
+  }
+
+  .photo-anastasiya-box,
+  .photo-svetlana-box {
+    max-width: none;
+    max-height: none;
+    width: 205px;
+    height: 280px;
   }
 }
