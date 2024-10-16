@@ -1,17 +1,20 @@
-@import "../vars.scss";
+@import "../../../scss/vars.scss";
 
 .adv {
-  padding: 35px 3.5% 95px 15%;
+  padding: 35px 2.5% 95px;
 }
 
 .adv__title {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .adv__list {
   display: flex;
-  flex-direction: column;
   gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .adv__item {
@@ -25,8 +28,7 @@
   border: 0.8px solid rgba(208, 198, 246, 0.75);
   padding: 20px;
   box-sizing: border-box;
-  max-width: 350px;
-  min-height: 203px;
+  width: 305px;
 }
 
 .adv__item-inner {
@@ -85,4 +87,19 @@
   width: 30px;
   height: 35px;
   background-image: url(./images/car.svg);
+}
+
+@media (min-width: 1440px) {
+  .adv {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .adv__title {
+    margin-bottom: 80px;
+    text-align: left;
+  }
+
+  .adv__item {
+    width: 700px;
+  }
 }

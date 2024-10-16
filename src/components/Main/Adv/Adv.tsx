@@ -1,3 +1,5 @@
+import './Adv.css';
+
 export const Adv = () => {
   return (
     <section className="adv" id="advantages">

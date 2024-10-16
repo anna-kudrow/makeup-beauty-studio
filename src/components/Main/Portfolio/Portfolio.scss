@@ -12,6 +12,7 @@
 .portfolio__item {
   max-width: 265px;
 }
+
 .portfolio____cover-img {
   max-width: 265px;
 }
@@ -22,7 +23,37 @@
 
 .portfolio__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 1440px) {
+  .portfolio {
+    padding: 135px 70px 135px;
+  }
+
+  .portfolio__item {
+    max-width: 300px;
+  }
+
+  .portfolio__cover-img {
+    width: 300px;
+  }
+
+  .portfolio__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .portfolio__cover-img:hover {
+    transition:
+      transform 0.5s,
+      filter 0.5s;
+    transform: scale(1.05);
+    filter: drop-shadow(3px 5px 11px rgb(148, 119, 148));
+  }
 }

@@ -23,8 +23,6 @@
   border: 0.8px solid rgba(208, 198, 246, 0.75);
   padding: 20px;
   box-sizing: border-box;
-  max-width: 350px;
-  min-height: 203px;
 }
 
 .adv__item-inner {
