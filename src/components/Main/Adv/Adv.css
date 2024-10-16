@@ -1,5 +1,3 @@
-@import "../../../scss/vars.scss";
-
 .adv {
   padding: 35px 2.5% 95px;
 }
@@ -43,10 +41,10 @@
 .adv__text {
   font-size: 13px;
   line-height: normal;
+}
 
-  &:first-of-type {
-    margin-bottom: 12px;
-  }
+.adv__text:first-of-type {
+  margin-bottom: 12px;
 }
 
 .adv__info-list {
@@ -75,7 +73,7 @@
   background-color: rgba(54, 54, 54, 0.08);
   box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.4);
   border: transparent;
-  color: $main-text;
+  color: var(--rouge);
   font-size: 11px;
   line-height: normal;
   padding: 10px;

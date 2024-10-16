@@ -1,4 +1,4 @@
-import "./DesktopNav.scss";
+import "./DesktopNav.css";
 
 
 function DesktopNav() {

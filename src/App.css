@@ -1,9 +1,39 @@
-@import "./vars";
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Forum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
 
-// .forum-regular {
+@font-face {
+  font-family: "Dance";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(../src/fonts/dance_partner.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Involve";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(../src/fonts/Involve-Medium.woff2) format("woff2");
+}
+
+:root {
+  --primary-background: #f9f3f9;
+  --main-text: #563838;
+  --head-text: #363636;
+  --rouge: #b70114;
+  --black: #000;
+  --purple: #606;
+  --purple-text: #660066cc;
+  --light-purple: #ebe1f4b3;
+  --white: #fff;
+  --soft-pink: #e7ecfb33;
+  --light-button-bg: #36363614;
+  --light-brown: #58393996;
+}
+
+/* // .forum-regular {
 //   font-family: "Forum", serif;
 //   font-weight: 400;
 //   font-style: normal;
@@ -20,7 +50,7 @@
 //   font-family: "Marmelad", sans-serif;
 //   font-weight: 400;
 //   font-style: normal;
-// }
+// } */
 
 * {
   margin: 0;
@@ -32,8 +62,8 @@ html {
 }
 
 #root {
-  background-color: $primary-background;
-  color: $main-text;
+  background-color: var(--primary-background);
+  color: var(--main-text);
   font-family: "Involve";
   font-size: 16px;
 }
@@ -60,7 +90,7 @@ ul {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  color: $rouge;
+  color: var(--rouge);
   margin-bottom: 15px;
 }
 

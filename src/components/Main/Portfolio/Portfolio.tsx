@@ -1,4 +1,4 @@
-import './Portfolio.scss';
+import './Portfolio.css';
 
 export const Portfolio = () => {
   return (

@@ -1,3 +1,4 @@
+import './Header.css';
 import DesktopNav from "./DesktopNav.tsx/DesktopNav";
 
 export const Header = () => {

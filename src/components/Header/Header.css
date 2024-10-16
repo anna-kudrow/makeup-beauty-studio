@@ -1,9 +1,7 @@
-@import "../../scss/vars.scss";
-
 .header {
   padding: 15px;
   height: 5vh;
-  color: $head-text;
+  color: var(--head-text);
 }
 
 .header__inner {
@@ -27,11 +25,11 @@
 .logo__link {
   display: flex;
   flex-direction: column;
-  color: $head-text;
+  color: var(--head-text);
 }
 
 .logo-link__upper {
-  color: $head-text;
+  color: var(--head-text);
   font-family: "Forum", serif;
   font-size: 13px;
   font-style: normal;
@@ -58,7 +56,7 @@
 }
 
 .phone-num {
-  color: $head-text;
+  color: var(--head-text);
   font-family: "Forum", serif;
   font-size: 14px;
   font-style: normal;

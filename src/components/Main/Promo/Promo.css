@@ -1,5 +1,3 @@
-@import "../../../scss/vars.scss";
-
 .promo {
   padding: 55px 10px 0;
   height: 95vh;
@@ -50,7 +48,7 @@
 
 .promo__title--rouge-color {
   font-family: "Caveat", cursive;
-  color: $rouge;
+  color: var(--rouge);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -85,7 +83,7 @@
   font-family: "Involve";
   font-size: 20px;
   line-height: normal;
-  color: $rouge;
+  color: var(--rouge);
   position: absolute;
   top: 12px;
   z-index: 1;
@@ -93,7 +91,7 @@
 
 .start-button {
   font-family: "Involve";
-  color: $white;
+  color: var(--white);
   font-size: 14px;
   line-height: normal;
   padding: 15px 68px;
@@ -136,52 +134,52 @@
     padding: 0px 40px;
     height: 85vh;
     box-sizing: border-box;
+  }
 
-    &__grid {
-      display: flex;
-    }
+  .promo__grid {
+    display: flex;
+  }
 
-    &__title--brown-color.up {
-      margin-top: -25px;
-      margin-left: 44px;
-      font-size: 64px;
-    }
+  .promo__title--brown-color.up {
+    margin-top: -25px;
+    margin-left: 44px;
+    font-size: 64px;
+  }
 
-    &__title--brown-color.bottom {
-      font-size: 96px;
-      top: 219px;
-      left: 190px;
-    }
+  .promo__title--brown-color.bottom {
+    font-size: 96px;
+    top: 219px;
+    left: 190px;
+  }
 
-    &__title-name {
-      font-size: 60px;
-      top: 44px;
-      left: -265px;
-    }
+  .promo__title-name {
+    font-size: 60px;
+    top: 44px;
+    left: -265px;
+  }
 
-    &__photo1-wrapper {
-      padding-top: 0;
-      order: 2;
-      margin-top: 50px;
-    }
+  .promo__photo1-wrapper {
+    padding-top: 0;
+    order: 2;
+    margin-top: 50px;
+  }
 
-    &__photo1 {
-      width: 347px;
-      height: 496px;
-    }
+  .promo__photo1 {
+    width: 347px;
+    height: 496px;
+  }
 
-    &__photo1 img {
-      border-radius: 11px;
-    }
+  .promo__photo1 img {
+    border-radius: 11px;
+  }
 
-    &__photo2 {
-      width: 307px;
-      height: 456px;
-    }
+  .promo__photo2 {
+    width: 307px;
+    height: 456px;
+  }
 
-    &__photo2 img {
-      border-radius: 11px;
-    }
+  .promo__photo2 img {
+    border-radius: 11px;
   }
 
   .promo__title-box {
@@ -213,12 +211,12 @@
   .start-button:hover {
     transform: scale(1.06);
   }
-}
 
-.slide-in-blurred-bottom {
-  -webkit-animation: slide-in-blurred-bottom 2.2s cubic-bezier(0.23, 1, 0.32, 1)
-    both;
-  animation: slide-in-blurred-bottom 2.2s cubic-bezier(0.23, 1, 0.32, 1) both;
+  .slide-in-blurred-bottom {
+    -webkit-animation: slide-in-blurred-bottom 2.2s
+      cubic-bezier(0.23, 1, 0.32, 1) both;
+    animation: slide-in-blurred-bottom 2.2s cubic-bezier(0.23, 1, 0.32, 1) both;
+  }
 }
 
 @-webkit-keyframes slide-in-blurred-bottom {

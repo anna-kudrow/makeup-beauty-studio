@@ -1,0 +1,26 @@
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu__list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+.desktop-menu__link {
+  color: var(--rouge);
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+  .desktop-menu {
+    display: initial;
+  }
+
+  .desktop-menu__link:hover {
+    transform: scale(1.06);
+  }
+}

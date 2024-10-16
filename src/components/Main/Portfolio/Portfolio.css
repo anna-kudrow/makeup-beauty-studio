@@ -1,11 +1,9 @@
-@import "../../../scss/vars.scss";
-
 .portfolio {
   padding: 75px 23% 35px 15%;
 }
 
 .portfolio__title {
-  color: $main-text;
+  color: var(--main-text);
   margin-bottom: 10px;
 }
 
