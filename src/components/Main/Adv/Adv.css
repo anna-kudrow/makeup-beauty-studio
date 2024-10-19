@@ -59,6 +59,8 @@
 }
 
 .adv__item-photo img {
+  width: 100px;
+  height: 156px;
   border-radius: 4px;
 }
 
@@ -73,7 +75,7 @@
   background-color: rgba(54, 54, 54, 0.08);
   box-shadow: 1px 3px 2px 0px rgba(128, 23, 84, 0.4);
   border: transparent;
-  color: var(--rouge);
+  color: var(--main-text);
   font-size: 11px;
   line-height: normal;
   padding: 10px;
@@ -98,6 +100,34 @@
   }
 
   .adv__item {
-    width: 700px;
+    width: 560px;
+    height: 300px;
+    padding: 30px;
+  }
+
+  .adv__text {
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .adv__text-bigger {
+    font-size: 23px;
+  }
+
+  .adv__car-icon {
+    width: 50px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .adv__item-photo img {
+    width: 150px;
+    height: 220px;
+  }
+
+  .adv__list {
+    justify-content: space-evenly;
+    row-gap: 50px;
   }
 }

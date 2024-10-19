@@ -1,3 +1,5 @@
+import './achievements.css';
+
 export const Achievments = () => {
   return (
     <section className="achievements" id="achievments">

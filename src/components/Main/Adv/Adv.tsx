@@ -25,8 +25,6 @@ export const Adv = () => {
               </div>
               <div className="adv__item-photo">
                 <img
-                  width="100"
-                  height="156"
                   src="./images/musicians.jpg"
                   alt="Фото анастасии на мероприятии с артистами-баянистами"
                 />
@@ -36,20 +34,18 @@ export const Adv = () => {
           <li className="adv__item">
             <div className="adv__item-inner">
               <div className="adv__item-info">
-                <ul className="adv__info-list">
-                  <li className="adv__info-item ">
+                <ul className="adv__info-list ">
+                  <li className="adv__info-item adv__text">
                     Постоянно повышаем квалификацию
                   </li>
-                  <li className="adv__info-item ">Знаем трендовые образы </li>
-                  <li className="adv__info-item ">
+                  <li className="adv__info-item adv__text">Знаем трендовые образы </li>
+                  <li className="adv__info-item adv__text">
                     Учитываем любые индивидуальные пожелания
                   </li>
                 </ul>
               </div>
               <div className="adv__item-photo">
                 <img
-                  width="100"
-                  height="156"
                   src="./images/makeup.png"
                   alt="Анастасия делает мейк для клиентки"
                 />
@@ -71,8 +67,6 @@ export const Adv = () => {
               </div>
               <div className="adv__item-photo">
                 <img
-                  width="100"
-                  height="156"
                   src="./images/client.jpg"
                   alt="Фото благодарной клиентки"
                 />
@@ -89,8 +83,6 @@ export const Adv = () => {
               </div>
               <div className="adv__item-photo">
                 <img
-                  width="100"
-                  height="156"
                   src="./images/work-process.jpg"
                   alt="Анастасия за рабочим процессом укладки волос"
                 />

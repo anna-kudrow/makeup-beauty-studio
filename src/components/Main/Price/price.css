@@ -9,12 +9,14 @@
 }
 
 .price__card {
-  background-color: rgba(231, 236, 251, 0.2);
+  background-color: var(--soft-pink);
   padding: 30px 25px;
   max-width: 350px;
   height: 370px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 2px 7px 4px 0px rgba(185, 147, 214, 0.5);
+  box-shadow:
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    2px 7px 4px 0px rgba(185, 147, 214, 0.5);
 }
 
 .title__service {
@@ -24,11 +26,11 @@
   font-weight: 400;
   line-height: normal;
   display: block;
-  color: #583939;
+  color: var(--main-text);
 }
 
 .title__master {
-  color: #583939;
+  color: var(--main-text);
   font-family: "Involve";
   font-size: 20px;
   font-style: normal;
@@ -48,8 +50,8 @@
 }
 
 .price__button {
-  background-color: rgba(54, 54, 54, 0.08);
-  color: #583939;
+  background-color: var(--light-button-bg);
+  color: var(--main-text);
   font-family: "Involve";
   font-size: 14px;
   font-style: normal;
@@ -61,8 +63,9 @@
   width: 90%;
   border: transparent;
   cursor: pointer;
-}
-.price__button::after {
-  content: url(../../images/Arrow.svg);
-  margin-left: 10px;
+
+  &::after {
+    content: url(./images/Arrow.svg);
+    margin-left: 10px;
+  }
 }

@@ -1,3 +1,5 @@
+import './price.css';
+
 export const Price = () => {
   return (
     <section className="price" id="services">

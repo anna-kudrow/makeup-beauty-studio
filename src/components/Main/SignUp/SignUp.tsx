@@ -1,3 +1,5 @@
+import './sign-up.css';
+
 export const SignUp = () => {
   return (
     <section className="sign-up">
