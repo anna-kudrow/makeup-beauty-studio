@@ -35,7 +35,9 @@ export const Achievments = () => {
             Финал смотра-конкурса среди должностных лиц федеральной таможенной
             службы.
           </li>
-          <li className="achievements__item">
+          <details>
+            <summary className='achievements__summary'>Посмотреть все...</summary>
+                      <li className="achievements__item">
             <span className="achievements__year">2017 - 2022Г.</span>
             <br />
             Торжественная церемония закрытия Международных Армейских Игр.
@@ -144,6 +146,8 @@ export const Achievments = () => {
             Мастер класс «Макияж для себя» посвященный международному женскому
             дню на стенде Самара на выставке «Россия» в ВДНХ, Москва.
           </li>
+          </details>
+
         </ul>
       </div>
     </section>

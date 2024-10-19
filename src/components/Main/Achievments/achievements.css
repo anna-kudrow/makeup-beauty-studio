@@ -19,11 +19,15 @@
   display: block;
 }
 
-.achievements__item {
+.achievements__item,
+.achievements__summary {
   color: #000;
   font-family: "Marmelad", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.achievements__summary {
+  margin-bottom: 15px;
 }
