@@ -50,7 +50,7 @@
   display: block;
   width: 25px;
   height: 25px;
-  background-image: url(./images/insta.svg);
+  background-image: url(./../../../public/images/insta.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -58,7 +58,7 @@
 .phone-num {
   color: var(--head-text);
   font-family: "Forum", serif;
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -69,6 +69,11 @@
   height: 25px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.svg-inline--fa .fa-bars {
+  width: 22px;
+  height: 22px;
 }
 
 @media (min-width: 768px) {

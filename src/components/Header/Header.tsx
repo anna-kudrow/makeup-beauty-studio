@@ -33,7 +33,7 @@ export const Header = () => {
             </a>
           </div>
           <button className="header__menu-toggle" onClick={handleNavToggleClick}>
-            {!navToggleOpened ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: '17px', height: '17px',}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636",}} />}
+            {!navToggleOpened ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: "20px", height: "20px",}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636", width: "20px", height: "20px",}} />}
           </button>
         </div>
         {navToggleOpened ? <ModalMenu/> : null}

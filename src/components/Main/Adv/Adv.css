@@ -62,6 +62,7 @@
   width: 100px;
   height: 156px;
   border-radius: 4px;
+  max-width: unset;
 }
 
 .adv__item:nth-child(3) .adv__item-info {
@@ -86,7 +87,7 @@
 .adv__car-icon {
   width: 30px;
   height: 35px;
-  background-image: url(./images/car.svg);
+  background-image: url(../../../../public/images/car.svg);
 }
 
 @media (min-width: 1440px) {

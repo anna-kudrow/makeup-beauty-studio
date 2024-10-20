@@ -1,5 +1,5 @@
 .promo {
-  padding: 55px 10px 0;
+  padding: 75px 10px 0;
   height: 95vh;
   box-sizing: border-box;
 }
@@ -12,11 +12,11 @@
 
 .promo__grid {
   display: grid;
-  grid-template-columns: 129px 166px;
-  grid-template-rows: 110px 194px;
+  grid-template-columns: 139px 176px;
+  grid-template-rows: 120px 204px;
   justify-content: center;
-  gap: 4px;
-  margin-bottom: 75px;
+  gap: 7px;
+  margin-bottom: 100px;
 }
 
 .promo__photo1-wrapper {
@@ -25,13 +25,13 @@
 }
 
 .promo__photo1 {
-  width: 166px;
-  height: 238px;
+  width: 176px;
+  height: 248px;
 }
 
 .promo__photo2 {
-  width: 129px;
-  height: 193px;
+  width: 139px;
+  height: 203px;
 }
 
 .promo__photo1 img,
@@ -49,7 +49,7 @@
 .promo__title--rouge-color {
   font-family: "Caveat", cursive;
   color: var(--rouge);
-  font-size: 21px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -58,7 +58,7 @@
 .promo__title--brown-color {
   display: block;
   font-family: "Dance";
-  font-size: 21px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -67,7 +67,7 @@
 .promo__title--brown-color:last-of-type {
   margin-left: 22px;
   position: absolute;
-  top: 40px;
+  top: 47px;
   left: 5px;
 }
 
@@ -81,11 +81,11 @@
 
 .promo__title-name {
   font-family: "Involve";
-  font-size: 20px;
+  font-size: 21px;
   line-height: normal;
   color: var(--rouge);
   position: absolute;
-  top: 12px;
+  top: 16px;
   z-index: 1;
 }
 
