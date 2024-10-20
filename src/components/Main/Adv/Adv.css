@@ -130,4 +130,10 @@
     justify-content: space-evenly;
     row-gap: 50px;
   }
+
+  .adv__button {
+    padding: 15px;
+    font-size: 18px;
+    margin-right: unset;
+  }
 }

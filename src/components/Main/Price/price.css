@@ -4,19 +4,25 @@
 
 .price__cards {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
 .price__card {
   background-color: var(--soft-pink);
   padding: 30px 25px;
+  min-width: 260px;
   max-width: 350px;
-  height: 370px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 435px;
   border-radius: 4px;
   box-shadow:
     0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     2px 7px 4px 0px rgba(185, 147, 214, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .title__service {
@@ -63,9 +69,15 @@
   width: 90%;
   border: transparent;
   cursor: pointer;
+}
 
-  &::after {
-    content: url(./images/Arrow.svg);
-    margin-left: 10px;
+.price__button::after {
+  content: url(./images/Arrow.svg);
+  margin-left: 10px;
+}
+
+@media (min-width: 1440px) {
+  .price {
+    padding-bottom: 290px;
   }
 }
