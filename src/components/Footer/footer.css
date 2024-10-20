@@ -15,8 +15,8 @@
   gap: 27px;
 }
 
-.logo__link-footer,
-.logo-link__upper-footer {
+.footer__logo .logo__link-footer,
+.footer__logo .logo-link__upper-footer {
   color: var(--purple-text);
 }
 
