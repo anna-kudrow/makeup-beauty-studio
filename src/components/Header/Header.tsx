@@ -1,7 +1,17 @@
 import './Header.css';
 import DesktopNav from "./DesktopNav.tsx/DesktopNav";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
+
+import { useState } from 'react';
+import { ModalMenu } from './ModalMenu/ModalMenu';
 
 export const Header = () => {
+  const [navToggleOpened, setNavToggleOpened] = useState(false);
+  const handleNavToggleClick = () => {
+    setNavToggleOpened(!navToggleOpened);
+  }
+  
   return (
     <header className="header">
       <div className="header__inner">
@@ -22,8 +32,11 @@ export const Header = () => {
               8-903-752-25-05
             </a>
           </div>
-          <div className="header__menu"></div>
+          <button className="header__menu-toggle" onClick={handleNavToggleClick}>
+            {!navToggleOpened ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: '17px', height: '17px',}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636",}} />}
+          </button>
         </div>
+        {navToggleOpened ? <ModalMenu/> : null}
       </div>
     </header>
   );

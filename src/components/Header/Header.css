@@ -64,10 +64,9 @@
   line-height: normal;
 }
 
-.header__menu {
+.header__menu-toggle {
   width: 25px;
   height: 25px;
-  background-image: url(./images/burger.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -123,5 +122,9 @@
 
   .header__right-box {
     gap: 70px;
+  }
+
+  .header__menu-toggle {
+    display: none;
   }
 }

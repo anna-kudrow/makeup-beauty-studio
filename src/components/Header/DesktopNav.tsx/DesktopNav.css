@@ -7,6 +7,7 @@
   display: flex;
   gap: 50px;
 }
+
 .desktop-menu__link {
   color: var(--rouge);
   font-size: 18px;
