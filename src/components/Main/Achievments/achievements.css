@@ -30,6 +30,7 @@
 }
 .achievements__summary {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 1440px) {

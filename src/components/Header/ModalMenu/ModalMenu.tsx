@@ -2,7 +2,7 @@ import './ModalMenu.css';
 
 export const ModalMenu = () => {
   return (
-    <nav className="modal-menu">
+    <nav className="modal-menu slide-in-right">
       <ul className="modal-menu__list">
         <li className="modal-menu__item ">
           <a href="#about" className="modal-menu__link">
