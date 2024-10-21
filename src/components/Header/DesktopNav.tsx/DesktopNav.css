@@ -24,4 +24,14 @@
   .desktop-menu__link:hover {
     transform: scale(1.06);
   }
+
+  .desktop-menu__item:hover {
+    transform: scale(1.15);
+    transition: transform 1s;
+  }
+
+  .desktop-menu__item:hover .desktop-menu__link {
+    color: rgb(135, 11, 11);
+    transition: color 1s;
+  }
 }

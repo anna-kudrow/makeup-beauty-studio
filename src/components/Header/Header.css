@@ -55,6 +55,11 @@
   background-size: cover;
 }
 
+.instagram-link:hover {
+  transform: scale(1.3);
+  transition: transform 1s;
+}
+
 .phone-num {
   color: var(--head-text);
   font-family: "Forum", serif;
