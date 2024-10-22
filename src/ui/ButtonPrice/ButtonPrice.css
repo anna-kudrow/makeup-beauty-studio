@@ -15,6 +15,6 @@
 }
 
 .price__button::after {
-  content: url(./images/Arrow.svg);
+  content: url(/images/Arrow.svg);
   margin-left: 10px;
 }

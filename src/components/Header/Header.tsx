@@ -2,9 +2,9 @@ import './Header.css';
 import DesktopNav from "./DesktopNav.tsx/DesktopNav";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
-
 import { useState } from 'react';
 import { ModalMenu } from './ModalMenu/ModalMenu';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   const [navToggleOpened, setNavToggleOpened] = useState(false);
@@ -16,10 +16,10 @@ export const Header = () => {
     <header className="header">
       <div className="header__inner">
         <div className="header__logo">
-          <a className="logo__link">
+          <Link to='/' className="logo__link">
             <span className="logo-link__upper">Boyarinova_studio</span>
             <span className="logo-link__bottom">Анастасия & Светлана</span>
-          </a>
+          </Link>
         </div>
         <div className="header__right-box">
           <DesktopNav />

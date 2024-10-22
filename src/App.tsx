@@ -1,17 +1,30 @@
 import './App.css';
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { Main } from "./components/Main/Main";
-// import '../src/images'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { PortfolioCarousel } from "./components/MainSection/Portfolio/PortfolioCarousel/PortfolioCarousel.tsx";
+import { MainSection } from "./components/MainSection/MainSection.tsx";
+import { Layout } from './layout/Layout.tsx';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <MainSection />,
+      },
+      {
+        path: "/portfolio/backstage",
+        element: <PortfolioCarousel />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
 export default App;
