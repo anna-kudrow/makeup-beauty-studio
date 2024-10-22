@@ -17,6 +17,7 @@
 
 .portfolio__cover-img img {
   width: 100%;
+  border-radius: 8px;
 }
 
 .portfolio__list {
@@ -25,7 +26,7 @@
   flex-wrap: wrap;
   gap: 25px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 @media (min-width: 1440px) {
@@ -37,8 +38,9 @@
     max-width: 300px;
   }
 
-  .portfolio__cover-img {
+  .portfolio__cover-img img {
     width: 300px;
+    height: 395px;
   }
 
   .portfolio__title {

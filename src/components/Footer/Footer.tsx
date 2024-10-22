@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 export const Footer = () => {
@@ -5,12 +6,12 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__logo">
-          <a className="logo__link logo__link-footer">
+          <Link to='/' className="logo__link logo__link-footer">
             <span className="logo-link__upper logo-link__upper-footer">
               Boyarinova_studio
             </span>
             <span className="logo-link__bottom">Анастасия &Светлана</span>
-          </a>
+          </Link>
         </div>
         <div className="footer__content">
           <nav className="footer__nav">

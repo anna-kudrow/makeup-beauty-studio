@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         element: <MainSection />,
       },
       {
-        path: "/portfolio/backstage",
+        path: "/portfolio/:category",
         element: <PortfolioCarousel />,
       },
     ],
