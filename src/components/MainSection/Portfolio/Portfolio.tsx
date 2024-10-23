@@ -5,6 +5,7 @@ export const Portfolio = () => {
   return (
     <section className="portfolio" id="gallery">
       <div className="portfolio__inner">
+        <h2 className="about__title title">ГАЛЕРЕЯ</h2>
         <ul className="portfolio__list">
           <li className="portfolio__item">
             <Link to='portfolio/weddings'>

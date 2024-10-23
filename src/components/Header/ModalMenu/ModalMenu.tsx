@@ -1,33 +1,40 @@
+import { Link } from 'react-router-dom';
 import './ModalMenu.css';
+import { HashLink } from 'react-router-hash-link';
 
 export const ModalMenu = () => {
   return (
     <nav className="modal-menu slide-in-right">
       <ul className="modal-menu__list">
         <li className="modal-menu__item ">
-          <a href="#about" className="modal-menu__link">
+          <Link to="/" className="modal-menu__link">
+            Главная
+          </Link>
+        </li>
+        <li className="modal-menu__item ">
+          <HashLink smooth to="/#about" className="modal-menu__link">
             О нас
-          </a>
+          </HashLink>
         </li>
         <li className="modal-menu__item">
-          <a href="#gallery" className="modal-menu__link">
+          <HashLink smooth to="/#gallery" className="modal-menu__link">
             Галерея
-          </a>
+          </HashLink>
         </li>
         <li className="modal-menu__item">
-          <a href="#advantages" className="modal-menu__link">
+          <HashLink smooth to="/#advantages" className="modal-menu__link">
             Преимущества
-          </a>
+          </HashLink>
         </li>
         <li className="modal-menu__item">
-          <a href="#achievments" className="modal-menu__link">
+          <HashLink smooth to="/#achievments" className="modal-menu__link">
             Достижения
-          </a>
+          </HashLink>
         </li>
         <li className="modal-menu__item">
-          <a href="#services" className="modal-menu__link">
+          <HashLink smooth to="/#services" className="modal-menu__link">
             Услуги
-          </a>
+          </HashLink>
         </li>
       </ul>
     </nav>

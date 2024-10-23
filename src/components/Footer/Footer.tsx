@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './footer.css';
+import { HashLink } from 'react-router-hash-link';
 
 export const Footer = () => {
   return (
@@ -16,39 +17,42 @@ export const Footer = () => {
         <div className="footer__content">
           <nav className="footer__nav">
             <ul className="nav__list">
-              <li className="nav__item">
-                <a href="#about">О нас</a>
+              <Link to='/'  className="nav__item">
+                <a className="nav__link" href="#about">Главная</a>
+              </Link>
+              <li  className="nav__item">
+                <HashLink smooth to="/#about" className="nav__link" >О нас</HashLink>
               </li>
               <li className="nav__item">
-                <a href="#gallery">Фотогалерея</a>
+                <HashLink smooth to="/#gallery" className="nav__link" >Фотогалерея</HashLink>
               </li>
               <li className="nav__item">
-                <a href="#services">Услуги</a>
+                <HashLink smooth to="/#services" className="nav__link" >Услуги</HashLink>
               </li>
             </ul>
           </nav>
           <div className="footer__social-media">
             <ul className="social-media__list">
               <li className="social-media__item">
-                <a href="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D">
+                <a className="nav__link" href="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D">
                   Instagram
                 </a>
               </li>
               <li className="social-media__item">
-                <a href="https://t.me/BoyarinovaAn">Telegram</a>
+                <a className="nav__link" href="https://t.me/BoyarinovaAn">Telegram</a>
               </li>
               <li className="social-media__item">
-                <a href="https://wa.me/89037522505">Whatsapp</a>
+                <a className="nav__link" href="https://wa.me/89037522505">Whatsapp</a>
               </li>
             </ul>
           </div>
           <div className="footer__contacts">
             <ul className="contacts__list">
               <li className="contacts__item">
-                <a href="tel:+79037522505">8-903-752-25-05</a>
+                <a className="nav__link" href="tel:+79037522505">8-903-752-25-05</a>
               </li>
-              <li className="contacts__item">
-                г. Москва, ул. Высокая 8, 1 этаж
+              <li className="contacts__item ">
+                г. Москва, <br /> ул. Высокая 8, 1 этаж
               </li>
             </ul>
           </div>

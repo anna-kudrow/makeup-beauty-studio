@@ -1,34 +1,41 @@
+import { Link } from 'react-router-dom';
 import "./DesktopNav.css";
+import { HashLink } from 'react-router-hash-link';
 
 
 function DesktopNav() {
   return (
     <nav className="desktop-menu">
       <ul className="desktop-menu__list">
+         <li className="desktop-menu__item ">
+          <Link to="/" className="desktop-menu__link">
+            ГЛАВНАЯ
+          </Link>
+        </li>
         <li className="desktop-menu__item ">
-          <a href="#about" className="desktop-menu__link">
+          <HashLink smooth to="/#about" className="desktop-menu__link">
             О НАС
-          </a>
+          </HashLink>
         </li>
         <li className="desktop-menu__item">
-          <a href="#gallery" className="desktop-menu__link">
+          <HashLink smooth to="/#gallery" className="desktop-menu__link">
             ГАЛЕРЕЯ
-          </a>
+          </HashLink>
         </li>
         <li className="desktop-menu__item">
-          <a href="#advantages" className="desktop-menu__link">
+          <HashLink smooth to="/#advantages" className="desktop-menu__link">
             ПРЕИМУЩЕСТВА
-          </a>
+          </HashLink>
         </li>
         <li className="desktop-menu__item">
-          <a href="#achievments" className="desktop-menu__link">
+          <HashLink smooth to="/#achievments" className="desktop-menu__link">
             ДОСТИЖЕНИЯ
-          </a>
+          </HashLink>
         </li>
         <li className="desktop-menu__item">
-          <a href="#services" className="desktop-menu__link">
+          <HashLink smooth to="/#services" className="desktop-menu__link">
             УСЛУГИ
-          </a>
+          </HashLink>
         </li>
       </ul>
     </nav>

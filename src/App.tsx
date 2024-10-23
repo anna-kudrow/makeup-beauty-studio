@@ -17,6 +17,11 @@ const router = createBrowserRouter([
         path: "/portfolio/:category",
         element: <PortfolioCarousel />,
       },
+      // {
+      //   path: "/#about",
+      //   element: <PortfolioCarousel />,
+      // },
+
     ],
   },
 ]);

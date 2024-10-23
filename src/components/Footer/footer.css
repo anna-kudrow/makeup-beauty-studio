@@ -32,18 +32,24 @@
 .social-media__list,
 .contacts__list {
   font-family: "Involve";
-  font-size: 12px;
+  font-size: 15px;
   line-height: normal;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   color: var(--purple-text);
 }
 
-.nav__list a,
-.social-media__list a,
-.contacts__list a {
-  color: var(--purple-text);
+.nav__link {
+  color: inherit;
+}
+
+.social-media__item:hover,
+.nav__item:hover,
+.contacts__item:not(:last-of-type):hover {
+  transform: scale(1.1);
+  color: #641064;
+  transition: transform 1s;
 }
 
 @media (min-width: 1440px) {
