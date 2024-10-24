@@ -2,11 +2,12 @@ import { Link } from 'react-router-dom';
 import './ModalMenu.css';
 import { HashLink } from 'react-router-hash-link';
 
-export const ModalMenu = () => {
+
+export const ModalMenu = ({handleBlur}: () => void )=> {
   return (
     <nav className="modal-menu slide-in-right">
-      <ul className="modal-menu__list">
-        <li className="modal-menu__item ">
+      <ul className="modal-menu__list" onBlur={handleBlur}>
+        <li className="modal-menu__item" >
           <Link to="/" className="modal-menu__link">
             Главная
           </Link>

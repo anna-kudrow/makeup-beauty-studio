@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/carousel"
 
 import { type CarouselApi } from "@/components/ui/carousel"
-import { backstagePhotoData, weddingsPhotoData } from '@/lib/photoData';
+import { backstagePhotoData, eventsPhotoData, weddingsPhotoData } from '@/lib/photoData';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './PortfolioCarousel.css'
@@ -30,9 +30,12 @@ export const PortfolioCarousel = () => {
     if (params.category === 'backstage') { 
       currentData = backstagePhotoData;
       currentTitle = CATEGORY.backstage
-    }else if(params.category === 'weddings') { 
+    } else if(params.category === 'weddings') { 
       currentData = weddingsPhotoData;
       currentTitle = CATEGORY.weddings;
+    } else if(params.category === 'events') { 
+      currentData = eventsPhotoData;
+      currentTitle = CATEGORY.events;
     }
 
   return (

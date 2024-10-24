@@ -5,7 +5,7 @@ export const Portfolio = () => {
   return (
     <section className="portfolio" id="gallery">
       <div className="portfolio__inner">
-        <h2 className="about__title title">ГАЛЕРЕЯ</h2>
+        <h2 className="about__title title">Галерея работ</h2>
         <ul className="portfolio__list">
           <li className="portfolio__item">
             <Link to='portfolio/weddings'>
@@ -23,7 +23,7 @@ export const Portfolio = () => {
               <h3 className="portfolio__title">На мероприятия</h3>
               <div className="portfolio__cover-img">
                 <img
-                  src="./images/portfolio/events/events-cover.png"
+                  src="./images/portfolio/events/event-cover.jpg"
                   alt="Фото обложки блока `мероприятия`"
                 />
               </div>

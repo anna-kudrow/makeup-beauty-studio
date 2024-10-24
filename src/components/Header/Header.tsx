@@ -7,9 +7,13 @@ import { ModalMenu } from './ModalMenu/ModalMenu';
 import { Link } from 'react-router-dom';
 
 export const Header = () => {
-  const [navToggleOpened, setNavToggleOpened] = useState(false);
+  const [modalMenuOpen, setModalMenuOpen] = useState(false);
   const handleNavToggleClick = () => {
-    setNavToggleOpened(!navToggleOpened);
+    setModalMenuOpen(!modalMenuOpen);
+  }
+
+  const handleBlur = () => {
+    setModalMenuOpen(false);
   }
   
   return (
@@ -33,10 +37,10 @@ export const Header = () => {
             </a>
           </div>
           <button className="header__menu-toggle" onClick={handleNavToggleClick}>
-            {!navToggleOpened ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: "20px", height: "20px",}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636", width: "20px", height: "20px",}} />}
+            {!modalMenuOpen ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: "20px", height: "20px",}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636", width: "20px", height: "20px",}} />}
           </button>
         </div>
-        {navToggleOpened ? <ModalMenu/> : null}
+        {modalMenuOpen ? <ModalMenu handleBlur={handleBlur}/> : null}
       </div>
     </header>
   );
