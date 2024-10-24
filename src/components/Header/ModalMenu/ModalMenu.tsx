@@ -2,8 +2,13 @@ import { Link } from 'react-router-dom';
 import './ModalMenu.css';
 import { HashLink } from 'react-router-hash-link';
 
+type Props = {
+  handleBlur: () => void;
+};
 
-export const ModalMenu = ({handleBlur}: () => void )=> {
+
+export const ModalMenu = ({handleBlur}: Props) => {
+
   return (
     <nav className="modal-menu slide-in-right">
       <ul className="modal-menu__list" onBlur={handleBlur}>
