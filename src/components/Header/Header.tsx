@@ -11,10 +11,6 @@ export const Header = () => {
   const handleNavToggleClick = () => {
     setModalMenuOpen(!modalMenuOpen);
   }
-
-  const handleBlur = () => {
-    setModalMenuOpen(false);
-  }
   
   return (
     <header className="header">
@@ -40,7 +36,7 @@ export const Header = () => {
             {!modalMenuOpen ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: "20px", height: "20px",}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636", width: "20px", height: "20px",}} />}
           </button>
         </div>
-        {modalMenuOpen ? <ModalMenu handleBlur={handleBlur}/> : null}
+        <ModalMenu modalMenuOpen={modalMenuOpen} setModalMenuOpen={setModalMenuOpen} />
       </div>
     </header>
   );

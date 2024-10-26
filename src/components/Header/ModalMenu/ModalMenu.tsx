@@ -1,17 +1,32 @@
 import { Link } from 'react-router-dom';
 import './ModalMenu.css';
 import { HashLink } from 'react-router-hash-link';
+import { useEffect, useRef } from 'react';
 
 type Props = {
-  handleBlur: () => void;
+  modalMenuOpen: boolean;
+  setModalMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 
-export const ModalMenu = ({handleBlur}: Props) => {
+export const ModalMenu = ({modalMenuOpen, setModalMenuOpen}: Props) => {
+  
+  const menuRef = useRef<HTMLUListElement>(null);
 
-  return (
-    <nav className="modal-menu slide-in-right">
-      <ul className="modal-menu__list" onBlur={handleBlur}>
+  const handleClickOutside = (e: MouseEvent ) => {
+    if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+      setModalMenuOpen(false)
+    }
+  }
+
+  useEffect(()=> {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
+
+  const menuEl = <nav ref={menuRef} className="modal-menu slide-in-right">
+      <ul className="modal-menu__list">
         <li className="modal-menu__item" >
           <Link to="/" className="modal-menu__link">
             Главная
@@ -44,5 +59,8 @@ export const ModalMenu = ({handleBlur}: Props) => {
         </li>
       </ul>
     </nav>
+  
+  return (
+    modalMenuOpen ? menuEl : null
   )
 }
