@@ -1,7 +1,9 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './ModalMenu.css';
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import { useEffect, useRef } from 'react';
+import { ANCORS_DATA } from '@/lib/const';
+import { MenuItem } from './MenuItem/MenuItem';
 
 type Props = {
   modalMenuOpen: boolean;
@@ -27,10 +29,11 @@ export const ModalMenu = ({modalMenuOpen, setModalMenuOpen}: Props) => {
 
   const menuEl = <nav ref={menuRef} className="modal-menu slide-in-right">
       <ul className="modal-menu__list">
-        <li className="modal-menu__item" >
-          <Link to="/" className="modal-menu__link">
+        {ANCORS_DATA.map(ancor => <MenuItem ancorData={ancor} setModalMenuOpen={setModalMenuOpen}/>)}
+        {/* <li className="modal-menu__item" >
+          <HashLink smooth to="/" className="modal-menu__link">
             Главная
-          </Link>
+          </HashLink>
         </li>
         <li className="modal-menu__item ">
           <HashLink smooth to="/#about" className="modal-menu__link">
@@ -56,7 +59,7 @@ export const ModalMenu = ({modalMenuOpen, setModalMenuOpen}: Props) => {
           <HashLink smooth to="/#services" className="modal-menu__link">
             Услуги
           </HashLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   
