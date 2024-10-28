@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/carousel"
 
 import { type CarouselApi } from "@/components/ui/carousel"
-import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, weddingsPhotoData } from '@/lib/photoData';
+import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, photosessionsPhotoData, weddingsPhotoData } from '@/lib/photoData';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './PortfolioCarousel.css'
@@ -39,6 +39,9 @@ export const PortfolioCarousel = () => {
     } else if(params.category === 'hairstyling'){
       currentData = hairstylePhotoData;
       currentTitle = CATEGORY.hairstyle;
+    } else if(params.category === 'photosessions'){
+      currentData = photosessionsPhotoData;
+      currentTitle = CATEGORY.photosessions;
     }
 
   return (

@@ -3,6 +3,7 @@ export const CATEGORY = {
   backstage: "Backstage",
   events: "Мероприятия",
   hairstyle: "Парикмахерские услуги",
+  photosessions: "Фотосессии под ключ",
 };
 
 export const ANCORS_DATA = [

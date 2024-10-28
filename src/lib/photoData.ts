@@ -205,3 +205,182 @@ export const hairstylePhotoData = [
     alt: "укладка",
   },
 ];
+
+export const photosessionsPhotoData = [
+  {
+    src: "/images/portfolio/photo-sessions/image1.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image2.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image3.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image4.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image5.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image7.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image8.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image10.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image12.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image13.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image16.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image17.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image18.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image20.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image21.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image22.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image25.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image27.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image29.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image30.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image32.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image33.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image35.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image36.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image37.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image39.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image40.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image41.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image43.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image44.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image45.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image46.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image47.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image50.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image52.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image53.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image54.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image55.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image56.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image57.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image58.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image59.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image61.jpg",
+    alt: "Фотосессия",
+  },
+  {
+    src: "/images/portfolio/photo-sessions/image62.jpg",
+    alt: "Фотосессия",
+  },
+];

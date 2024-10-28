@@ -45,7 +45,7 @@ export const Portfolio = () => {
               <h3 className="portfolio__title">Фотосессии под ключ</h3>
               <div className="portfolio__cover-img">
                 <img
-                  src="./images/portfolio/photo-sessions/photo-sessions-cover.png"
+                  src="./images/portfolio/photo-sessions/photosessions-cover.jpg"
                   alt="Фото обложки блока `Фотосессии под ключ`"
                 />
               </div>
