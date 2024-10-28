@@ -37,12 +37,12 @@
     padding: 135px 70px 135px;
   }
 
-  .portfolio__item {
-    max-width: 300px;
+  .portfolio__list {
+    row-gap: 50px;
   }
 
-  .portfolio__cover-img img {
-    width: 300px;
+  .portfolio__cover-img {
+    width: 310px;
     height: 395px;
   }
 

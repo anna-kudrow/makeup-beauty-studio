@@ -19,6 +19,14 @@ export const weddingsPhotoData = [
     src: "/images/portfolio/weddings/wedding-heair.jpg",
     alt: "фото причёски невесты",
   },
+  {
+    src: "/images/portfolio/weddings/bride3.jpeg",
+    alt: "фото невесты5",
+  },
+  {
+    src: "/images/portfolio/weddings/bride3-1.jpeg",
+    alt: "фото невесты6",
+  },
 ];
 
 export const backstagePhotoData = [
@@ -160,5 +168,40 @@ export const eventsPhotoData = [
   {
     src: "/images/portfolio/events/event31.jpg",
     alt: "вечерний пучок",
+  },
+];
+
+export const hairstylePhotoData = [
+  {
+    src: "/images/portfolio/hairstyle/haircolor1.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/haircolor2.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle1.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle2.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle3.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle4.jpg",
+    alt: "укладка",
+  },
+  {
+    src: "/images/portfolio/hairstyle/hairstyle5.jpg",
+    alt: "укладка",
   },
 ];

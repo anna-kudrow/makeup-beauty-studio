@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/carousel"
 
 import { type CarouselApi } from "@/components/ui/carousel"
-import { backstagePhotoData, eventsPhotoData, weddingsPhotoData } from '@/lib/photoData';
+import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, weddingsPhotoData } from '@/lib/photoData';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './PortfolioCarousel.css'
@@ -36,11 +36,14 @@ export const PortfolioCarousel = () => {
     } else if(params.category === 'events') { 
       currentData = eventsPhotoData;
       currentTitle = CATEGORY.events;
+    } else if(params.category === 'hairstyling'){
+      currentData = hairstylePhotoData;
+      currentTitle = CATEGORY.hairstyle;
     }
 
   return (
         <Carousel className='p-2 pt-6 lg:p-5' setApi={setApi} opts={{loop: true}}>
-          <div className='flex justify-between w-full mb-5'>
+          <div className='flex justify-between w-full mb-5 pl-10 pr-10'>
             <h2 className='lg:text-xl'>{currentTitle}</h2>
             <div className='flex gap-3'>
               <button onClick={()=> api?.scrollTo(current - 1)}><img src="/images/portfolio/gallery-left.svg" alt="перелистнуть влево" /></button>

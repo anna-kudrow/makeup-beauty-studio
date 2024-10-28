@@ -2,6 +2,7 @@ export const CATEGORY = {
   weddings: "Свадьбы",
   backstage: "Backstage",
   events: "Мероприятия",
+  hairstyle: "Парикмахерские услуги",
 };
 
 export const ANCORS_DATA = [

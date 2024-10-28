@@ -34,7 +34,7 @@ export const Portfolio = () => {
               <h3 className="portfolio__title">Парикмахерские услуги</h3>
               <div className="portfolio__cover-img">
                 <img
-                  src="./images/portfolio/hairstyle/hair-cover.png"
+                  src="./images/portfolio/hairstyle/hairstyle-cover.jpg"
                   alt="Фото обложки блока `Парикмахерские услуги`"
                 />
               </div>
@@ -56,7 +56,7 @@ export const Portfolio = () => {
               <h3 className="portfolio__title">Backstage</h3>
               <div className="portfolio__cover-img">
                 <img
-                  src="./images/portfolio/backstage/backstage-cover.png"
+                  src="./images/portfolio/backstage/backstage-cover2.jpg"
                   alt="Фото обложки блока `Backstage`"
                 />
               </div>
