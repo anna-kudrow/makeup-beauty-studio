@@ -8,15 +8,18 @@
 }
 
 .portfolio__item {
-  max-width: 265px;
+  /* width: 265px;
+  height: 350px; */
 }
 
-.portfolio____cover-img {
-  max-width: 265px;
+.portfolio__cover-img {
+  width: 265px;
+  height: 350px;
 }
 
 .portfolio__cover-img img {
   width: 100%;
+  height: 100%;
   border-radius: 8px;
 }
 

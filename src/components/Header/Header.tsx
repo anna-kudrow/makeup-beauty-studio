@@ -24,13 +24,12 @@ export const Header = () => {
         <div className="header__right-box">
           <DesktopNav />
           <div className="header__contacts">
-            <a
+            <Link to="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D"
               className="instagram-link"
-              href="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D"
-            ></a>
-            <a className="phone-num" href="tel:+79037522505">
+            ></Link>
+            <Link to="tel:+79037522505" className="phone-num">
               8-903-752-25-05
-            </a>
+            </Link>
           </div>
           <button className="header__menu-toggle" onClick={handleNavToggleClick}>
             {!modalMenuOpen ? <FontAwesomeIcon icon={faBars} style={{color: "#363636",width: "20px", height: "20px",}} /> : <FontAwesomeIcon icon={faX} style={{color: "#363636", width: "20px", height: "20px",}} />}

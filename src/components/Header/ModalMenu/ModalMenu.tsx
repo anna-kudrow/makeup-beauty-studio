@@ -1,6 +1,4 @@
-// import { Link } from 'react-router-dom';
 import './ModalMenu.css';
-// import { HashLink } from 'react-router-hash-link';
 import { useEffect, useRef } from 'react';
 import { ANCORS_DATA } from '@/lib/const';
 import { MenuItem } from './MenuItem/MenuItem';
@@ -15,51 +13,39 @@ export const ModalMenu = ({modalMenuOpen, setModalMenuOpen}: Props) => {
   
   const menuRef = useRef<HTMLUListElement>(null);
 
-  const handleClickOutside = (e: MouseEvent ) => {
-    if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
-      setModalMenuOpen(false)
-    }
-  }
 
-  useEffect(()=> {
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
+
+   useEffect(() => {
+    if (modalMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [modalMenuOpen]);
+
+  // const handleClickOutside = (e: MouseEvent ) => {
+  //   if (menuRef.current 
+  //     && e.target
+  //     // && e.target.classList.contains('header__menu-toggle') 
+  //     && !menuRef.current.contains(e.target as Node)
+  //   ) 
+  //     {
+  //     setModalMenuOpen(false)
+  //   }
+  // }
+
+  // useEffect(()=> {
+  //   document.addEventListener('mousedown', handleClickOutside);
+  //   return () => document.removeEventListener('mousedown', handleClickOutside)
+  // }, [])
 
 
   const menuEl = <nav ref={menuRef} className="modal-menu slide-in-right">
       <ul className="modal-menu__list">
-        {ANCORS_DATA.map(ancor => <MenuItem ancorData={ancor} setModalMenuOpen={setModalMenuOpen}/>)}
-        {/* <li className="modal-menu__item" >
-          <HashLink smooth to="/" className="modal-menu__link">
-            Главная
-          </HashLink>
-        </li>
-        <li className="modal-menu__item ">
-          <HashLink smooth to="/#about" className="modal-menu__link">
-            О нас
-          </HashLink>
-        </li>
-        <li className="modal-menu__item">
-          <HashLink smooth to="/#gallery" className="modal-menu__link">
-            Галерея
-          </HashLink>
-        </li>
-        <li className="modal-menu__item">
-          <HashLink smooth to="/#advantages" className="modal-menu__link">
-            Преимущества
-          </HashLink>
-        </li>
-        <li className="modal-menu__item">
-          <HashLink smooth to="/#achievments" className="modal-menu__link">
-            Достижения
-          </HashLink>
-        </li>
-        <li className="modal-menu__item">
-          <HashLink smooth to="/#services" className="modal-menu__link">
-            Услуги
-          </HashLink>
-        </li> */}
+        {ANCORS_DATA.map(ancor => <MenuItem key={ancor.path} ancorData={ancor} setModalMenuOpen={setModalMenuOpen}/>)}
       </ul>
     </nav>
   

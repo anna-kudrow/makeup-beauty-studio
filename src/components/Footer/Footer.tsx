@@ -34,22 +34,22 @@ export const Footer = () => {
           <div className="footer__social-media">
             <ul className="social-media__list">
               <li className="social-media__item">
-                <a className="nav__link" href="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D">
+                <Link to="https://www.instagram.com/boyarinova_studio?igshid=YmMyMTA2M2Y%3D" className="nav__link" >
                   Instagram
-                </a>
+                </Link>
               </li>
               <li className="social-media__item">
-                <a className="nav__link" href="https://t.me/BoyarinovaAn">Telegram</a>
+                <Link to="https://t.me/BoyarinovaAn" className="nav__link" >Telegram</Link>
               </li>
               <li className="social-media__item">
-                <a className="nav__link" href="https://wa.me/89037522505">Whatsapp</a>
+                <Link to="https://wa.me/89037522505" className="nav__link">Whatsapp</Link>
               </li>
             </ul>
           </div>
           <div className="footer__contacts">
             <ul className="contacts__list">
               <li className="contacts__item">
-                <a className="nav__link" href="tel:+79037522505">8-903-752-25-05</a>
+                <Link to="tel:+79037522505" className="nav__link" >8-903-752-25-05</Link>
               </li>
               <li className="contacts__item ">
                 г. Москва, <br /> ул. Высокая 8, 1 этаж
