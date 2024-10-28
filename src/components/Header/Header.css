@@ -51,7 +51,7 @@
   display: block;
   width: 25px;
   height: 25px;
-  background-image: url(./images/insta.svg);
+  background-image: url(/images/insta.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
