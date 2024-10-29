@@ -1,7 +1,7 @@
 export const CATEGORY = {
   weddings: "Свадьбы",
   backstage: "Backstage",
-  events: "Мероприятия",
+  events: "На мероприятия",
   hairstyle: "Парикмахерские услуги",
   photosessions: "Фотосессии под ключ",
 };

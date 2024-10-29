@@ -17,9 +17,9 @@ export const Footer = () => {
         <div className="footer__content">
           <nav className="footer__nav">
             <ul className="nav__list">
-              <Link to='/'  className="nav__item">
-                <a className="nav__link" href="#about">Главная</a>
-              </Link>
+              <li  className="nav__item">  
+                <HashLink to='/'  className="nav__item">Главная</HashLink>
+              </li>
               <li  className="nav__item">
                 <HashLink smooth to="/#about" className="nav__link" >О нас</HashLink>
               </li>

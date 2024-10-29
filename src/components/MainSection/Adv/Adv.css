@@ -1,10 +1,10 @@
 .adv {
-  padding: 35px 2.5% 95px;
+  padding: 35px 2.5% 30px;
 }
 
 .adv__title {
   margin-bottom: 15px;
-  text-align: center;
+  padding-left: 15%;
 }
 
 .adv__list {

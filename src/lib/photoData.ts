@@ -55,7 +55,7 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event1.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 2",
   },
   {
     src: "/images/portfolio/events/event3.jpg",
@@ -71,7 +71,7 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event6.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 3",
   },
   {
     src: "/images/portfolio/events/event7.jpg",
@@ -79,11 +79,11 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event8.jpg",
-    alt: "вечерний макияж и вечерний пучок",
+    alt: "вечерний макияж и вечерний пучок 1",
   },
   {
     src: "/images/portfolio/events/event9.jpg",
-    alt: "вечерний пучок",
+    alt: "вечерний пучок 2",
   },
   {
     src: "/images/portfolio/events/event10.jpg",
@@ -91,15 +91,15 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event11.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 4",
   },
   {
     src: "/images/portfolio/events/event12.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 5",
   },
   {
     src: "/images/portfolio/events/event13.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 6",
   },
   {
     src: "/images/portfolio/events/event14.jpg",
@@ -107,7 +107,7 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event15.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 7",
   },
   {
     src: "/images/portfolio/events/event16.jpg",
@@ -115,15 +115,15 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event17.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 8",
   },
   {
     src: "/images/portfolio/events/event18.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 9",
   },
   {
     src: "/images/portfolio/events/event19.jpg",
-    alt: "локоны волна",
+    alt: "локоны волна 2",
   },
   {
     src: "/images/portfolio/events/event20.jpg",
@@ -135,7 +135,7 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event22.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 10",
   },
   {
     src: "/images/portfolio/events/event23.jpg",
@@ -143,244 +143,244 @@ export const eventsPhotoData = [
   },
   {
     src: "/images/portfolio/events/event24.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 11",
   },
   {
     src: "/images/portfolio/events/event25.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 12",
   },
   {
     src: "/images/portfolio/events/event27.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 13",
   },
   {
     src: "/images/portfolio/events/event28.jpg",
-    alt: "локоны волна",
+    alt: "локоны волна 3",
   },
   {
     src: "/images/portfolio/events/event29.jpg",
-    alt: "вечерний макияж и укладка",
+    alt: "вечерний макияж и укладка 14",
   },
   {
     src: "/images/portfolio/events/event30.jpg",
-    alt: "строгий вечерний пучок",
+    alt: "строгий вечерний пучок 3",
   },
   {
     src: "/images/portfolio/events/event31.jpg",
-    alt: "вечерний пучок",
+    alt: "вечерний пучок 4",
   },
 ];
 
 export const hairstylePhotoData = [
   {
     src: "/images/portfolio/hairstyle/haircolor1.jpg",
-    alt: "укладка",
+    alt: "укладка 1",
   },
   {
     src: "/images/portfolio/hairstyle/haircolor2.jpg",
-    alt: "укладка",
+    alt: "укладка 2",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle1.jpg",
-    alt: "укладка",
+    alt: "укладка 3",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle2.jpg",
-    alt: "укладка",
+    alt: "укладка 4",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle3.jpg",
-    alt: "укладка",
+    alt: "укладка 5",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle.jpg",
-    alt: "укладка",
+    alt: "укладка 6",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle4.jpg",
-    alt: "укладка",
+    alt: "укладка 7",
   },
   {
     src: "/images/portfolio/hairstyle/hairstyle5.jpg",
-    alt: "укладка",
+    alt: "укладка 8",
   },
 ];
 
 export const photosessionsPhotoData = [
   {
     src: "/images/portfolio/photo-sessions/image1.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 1",
   },
   {
     src: "/images/portfolio/photo-sessions/image2.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия в саду",
   },
   {
     src: "/images/portfolio/photo-sessions/image3.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия в саду 2",
   },
   {
     src: "/images/portfolio/photo-sessions/image4.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия в саду 3",
   },
   {
     src: "/images/portfolio/photo-sessions/image5.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 4",
   },
   {
     src: "/images/portfolio/photo-sessions/image7.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 5",
   },
   {
     src: "/images/portfolio/photo-sessions/image8.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 6",
   },
   {
     src: "/images/portfolio/photo-sessions/image10.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 7",
   },
   {
     src: "/images/portfolio/photo-sessions/image12.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 8",
   },
   {
     src: "/images/portfolio/photo-sessions/image13.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 9",
   },
   {
     src: "/images/portfolio/photo-sessions/image16.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 10",
   },
   {
     src: "/images/portfolio/photo-sessions/image17.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 11",
   },
   {
     src: "/images/portfolio/photo-sessions/image18.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 12",
   },
   {
     src: "/images/portfolio/photo-sessions/image20.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 13",
   },
   {
     src: "/images/portfolio/photo-sessions/image21.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 14",
   },
   {
     src: "/images/portfolio/photo-sessions/image22.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 15",
   },
   {
     src: "/images/portfolio/photo-sessions/image25.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 16",
   },
   {
     src: "/images/portfolio/photo-sessions/image27.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 17",
   },
   {
     src: "/images/portfolio/photo-sessions/image29.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 18",
   },
   {
     src: "/images/portfolio/photo-sessions/image30.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 19",
   },
   {
     src: "/images/portfolio/photo-sessions/image32.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 20",
   },
   {
     src: "/images/portfolio/photo-sessions/image33.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 21",
   },
   {
     src: "/images/portfolio/photo-sessions/image35.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 22",
   },
   {
     src: "/images/portfolio/photo-sessions/image36.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 23",
   },
   {
     src: "/images/portfolio/photo-sessions/image37.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 24",
   },
   {
     src: "/images/portfolio/photo-sessions/image39.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 25",
   },
   {
     src: "/images/portfolio/photo-sessions/image40.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 26",
   },
   {
     src: "/images/portfolio/photo-sessions/image41.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 27",
   },
   {
     src: "/images/portfolio/photo-sessions/image43.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 28",
   },
   {
     src: "/images/portfolio/photo-sessions/image44.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 29",
   },
   {
     src: "/images/portfolio/photo-sessions/image45.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 30",
   },
   {
     src: "/images/portfolio/photo-sessions/image46.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 31",
   },
   {
     src: "/images/portfolio/photo-sessions/image47.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 32",
   },
   {
     src: "/images/portfolio/photo-sessions/image50.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 33",
   },
   {
     src: "/images/portfolio/photo-sessions/image52.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 34",
   },
   {
     src: "/images/portfolio/photo-sessions/image53.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 35",
   },
   {
     src: "/images/portfolio/photo-sessions/image54.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 36",
   },
   {
     src: "/images/portfolio/photo-sessions/image55.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 37",
   },
   {
     src: "/images/portfolio/photo-sessions/image56.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 38",
   },
   {
     src: "/images/portfolio/photo-sessions/image57.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 39",
   },
   {
     src: "/images/portfolio/photo-sessions/image58.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 40",
   },
   {
     src: "/images/portfolio/photo-sessions/image59.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 41",
   },
   {
     src: "/images/portfolio/photo-sessions/image61.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 42",
   },
   {
     src: "/images/portfolio/photo-sessions/image62.jpg",
-    alt: "Фотосессия",
+    alt: "Фотосессия 43",
   },
 ];

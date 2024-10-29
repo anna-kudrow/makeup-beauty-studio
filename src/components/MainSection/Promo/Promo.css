@@ -1,6 +1,6 @@
 .promo {
   padding: 75px 10px 0;
-  height: 95vh;
+  min-height: 95vh;
   box-sizing: border-box;
 }
 
@@ -106,6 +106,7 @@
   box-shadow: 1px 1px 4px 3px rgba(185, 147, 214, 0.9) inset;
   border: transparent;
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
