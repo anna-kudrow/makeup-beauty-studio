@@ -1,3 +1,5 @@
+import { TOKEN } from "@/token";
+
 export const CATEGORY = {
   weddings: "Свадьбы",
   backstage: "Backstage",
@@ -32,3 +34,8 @@ export const ANCORS_DATA = [
     title: "Услуги",
   },
 ];
+
+export const CHAT_ID = "-1002417558436";
+export const ERROR_MESSAGE = "Произошла ошибка, попробуйте снова...";
+export const SUCCESS_MESSAGE = "Спасибо, мы свяжемся с Вами в ближайшее время!";
+export const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
