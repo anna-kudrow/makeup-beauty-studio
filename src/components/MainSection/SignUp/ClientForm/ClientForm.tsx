@@ -1,5 +1,5 @@
-import { CHAT_ID, ERROR_MESSAGE, SUCCESS_MESSAGE, URI_API } from "@/lib/const";
-import { useState } from "react";
+import { CHAT_ID, ERROR_MESSAGE, SUCCESS_MESSAGE, URI_API } from "../../../../lib/const";
+import { useState } from 'react';
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -8,9 +8,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-    AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
-
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 export const ClientForm = () => {
   const [formData, setFormData] = useState({
@@ -78,7 +77,7 @@ export const ClientForm = () => {
   
   return (
     <>
- <form className="sign-up__form" onSubmit={handleSubmit}>
+ <form className="sign-up__form" id='form' onSubmit={handleSubmit}>
       <input
         className="sign-up__input"
         type="text"

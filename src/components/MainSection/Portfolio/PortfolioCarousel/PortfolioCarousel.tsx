@@ -1,10 +1,10 @@
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel"
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+// } from "@/components/ui/carousel"
 
-import { type CarouselApi } from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel"
 import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, photosessionsPhotoData, weddingsPhotoData } from '@/lib/photoData';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';

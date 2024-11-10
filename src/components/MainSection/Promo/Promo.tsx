@@ -1,6 +1,10 @@
+import { HashLink } from 'react-router-hash-link';
 import './Promo.css';
 
+
+
 export const Promo = () => {
+
   return (
     <section className="promo">
       <div className="promo__inner">
@@ -29,7 +33,9 @@ export const Promo = () => {
           </div>
         </div>
         <button className="start-button" type="button">
-          Начать преображение
+          <HashLink smooth to="/#form" >
+            Начать преображение
+          </HashLink> 
         </button>
       </div>
     </section>
