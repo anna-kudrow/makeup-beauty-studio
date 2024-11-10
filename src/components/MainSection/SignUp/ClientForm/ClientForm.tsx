@@ -1,5 +1,16 @@
 import { CHAT_ID, ERROR_MESSAGE, SUCCESS_MESSAGE, URI_API } from "@/lib/const";
 import { useState } from "react";
+import {
+  AlertDialog,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+    AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
+
 
 export const ClientForm = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +19,11 @@ export const ClientForm = () => {
     email: "",
   });
 
+  const [alert, setAlert] = useState(false);
+
+  const [alertMessage, setAlertMessage] = useState('');
+
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prevData => ({
@@ -15,6 +31,11 @@ export const ClientForm = () => {
       [name]: value,
     }));
   };
+  
+  const handleAlertClose = () => {
+    setAlert(false);
+}
+
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -40,7 +61,8 @@ export const ClientForm = () => {
     const result = await response.json();
 
     if (result.ok) {
-      showMessage(true);
+      setAlertMessage(SUCCESS_MESSAGE);
+       setAlert(true);
       setFormData(prevData => ({
         ...prevData,
         name: "",
@@ -48,22 +70,15 @@ export const ClientForm = () => {
         email: "",
       }));
     } else {
-      showMessage(false);
+      setAlertMessage(ERROR_MESSAGE);
+       setAlert(true);
     }
   };
-
-  const showMessage = (isSuccess: boolean) => {
-    if (isSuccess) {
-      console.log(SUCCESS_MESSAGE);
-      // ALERT SUCCESSFULL
-    } else {
-      console.log(ERROR_MESSAGE);
-      // ALERT ERROR
-    }
-  };
-
+   
+  
   return (
-    <form className="sign-up__form" onSubmit={handleSubmit}>
+    <>
+ <form className="sign-up__form" onSubmit={handleSubmit}>
       <input
         className="sign-up__input"
         type="text"
@@ -92,8 +107,28 @@ export const ClientForm = () => {
         placeholder="почта"
         value={formData.email}
         onChange={handleChange}
-      />
-      <button className="sign-up__btn">записаться</button>
-    </form>
+      /> 
+      <AlertDialog>
+  <AlertDialogTrigger className="sign-up__btn" type='submit'>
+  записаться
+  </AlertDialogTrigger>
+  {alert 
+      ? 
+  <AlertDialogContent>
+    <AlertDialogHeader>
+          <AlertDialogTitle></AlertDialogTitle>
+      <AlertDialogDescription>
+       {alertMessage}
+      </AlertDialogDescription>
+    </AlertDialogHeader>
+    <AlertDialogFooter>
+      <AlertDialogCancel   style={{ backgroundColor: '#ebe1f4b3', color: '#363636' }} onClick={handleAlertClose}>Выход</AlertDialogCancel>
+    </AlertDialogFooter>
+  </AlertDialogContent>
+  : null}
+</AlertDialog>
+
+    </form> 
+    </>
   );
 };
