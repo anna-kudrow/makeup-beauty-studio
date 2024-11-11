@@ -39,3 +39,5 @@ export const CHAT_ID = "-1002417558436";
 export const ERROR_MESSAGE = "Произошла ошибка, попробуйте снова...";
 export const SUCCESS_MESSAGE = "Спасибо, мы свяжемся с Вами в ближайшее время!";
 export const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+// export const TOKEN = "7653182299:AAG1oW1H3CeFZ2FLeKnuKJFIXVHpqDxsoHI";
