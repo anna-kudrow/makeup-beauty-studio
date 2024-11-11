@@ -1,9 +1,13 @@
 import { HashLink } from "react-router-hash-link";
 import './StartButton.css';
 
-export const StartButton = () => {
+type props = {
+  addClass?: string
+}
+
+export const StartButton = ( {addClass}: props ) => {
   return (
-    <button className="start-button" type="button">
+    <button className={`start-button ${addClass}`} type="button">
       <HashLink smooth to="/#form">
         Начать преображение
       </HashLink>

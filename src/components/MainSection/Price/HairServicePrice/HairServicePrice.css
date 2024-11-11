@@ -1,5 +1,5 @@
 .price-box {
-  padding: 45px 5px;
+  padding: 45px 5px 45px 15px;
 }
 
 .price-table {
@@ -7,6 +7,12 @@
   grid-template-columns: 45% 13% 13% 13% 13%;
   grid-template-rows: auto;
   align-items: center;
+  row-gap: 7px;
+  margin-bottom: 30px;
+}
+
+.price-table__single {
+  grid-template-columns: 70% 20%;
 }
 
 .price-table__length {
@@ -31,4 +37,23 @@
 
 .price-table__amount {
   text-align: end;
+}
+
+.price-from {
+  font-size: 8px;
+}
+
+.title-inner-price {
+  font-family: "Involve";
+  color: var(--purple-text);
+  font-size: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #d0c6f6;
+  margin-bottom: 20px;
+}
+
+.subtitle-inner-price {
+  font-size: 15px;
+  color: var(--purple-text);
+  margin-bottom: 5px;
 }
