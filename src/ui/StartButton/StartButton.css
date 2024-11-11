@@ -20,9 +20,6 @@
 
 @media (min-width: 1440px) {
   .start-button {
-    position: absolute;
-    top: 544px;
-    left: 251px;
     width: 327px;
     height: 61px;
     padding: 22px 20px;
@@ -31,6 +28,8 @@
     color: #fff;
     transition: transform 0.5s;
     margin-top: 70px;
+    align-items: center;
+    justify-content: center;
   }
 
   .start-button:hover {

@@ -7,10 +7,10 @@ type props = {
 
 export const StartButton = ( {addClass}: props ) => {
   return (
+    <HashLink smooth to="/#form">
     <button className={`start-button ${addClass}`} type="button">
-      <HashLink smooth to="/#form">
         Начать преображение
-      </HashLink>
     </button>
+      </HashLink>
   );
 };

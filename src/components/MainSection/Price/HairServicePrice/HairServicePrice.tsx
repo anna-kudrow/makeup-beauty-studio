@@ -246,7 +246,7 @@ export const HairServicePrice = () => {
         <span className="price-table__amount">5 ml - 250</span>
        </div>
     </div>
-    <StartButton addClass='flex mx-auto'/>
+    <StartButton addClass='flex mx-auto '/>
     </>
   );
 };
