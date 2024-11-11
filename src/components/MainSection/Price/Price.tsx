@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ButtonPrice } from "../../../ui/ButtonPrice/ButtonPrice";
 import "./price.css";
 
@@ -18,7 +19,9 @@ export const Price = () => {
 							<li className="services__item">Мужские стрижки</li>
 							<li className="services__item">Глубокое восстановление волос</li>
 						</ul>
-						<ButtonPrice />
+						<Link to="/hair-price">
+							<ButtonPrice />
+						</Link>
 					</li>
 					<li className="price__card">
 						<p className="card__title">

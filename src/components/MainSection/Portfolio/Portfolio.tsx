@@ -3,12 +3,12 @@ import './Portfolio.css';
 
 export const Portfolio = () => {
   return (
-    <section className="portfolio" id="gallery">
+    <section className="portfolio" id="portfolio">
       <div className="portfolio__inner">
         <h2 className="about__title title">Галерея работ</h2>
         <ul className="portfolio__list">
           <li className="portfolio__item">
-            <Link to='portfolio/weddings'>
+            <Link to='/weddings'>
               <h3 className="portfolio__title">Свадьбы</h3>
               <div className="portfolio__cover-img">
                 <img
@@ -19,7 +19,7 @@ export const Portfolio = () => {
             </Link>
           </li>
           <li className="portfolio__item">
-            <Link to='portfolio/events'>
+            <Link to='/events'>
               <h3 className="portfolio__title">На мероприятия</h3>
               <div className="portfolio__cover-img">
                 <img
@@ -30,7 +30,7 @@ export const Portfolio = () => {
             </Link>
           </li>
           <li className="portfolio__item">
-            <Link  to="portfolio/hairstyling">
+            <Link  to="/hairstyling">
               <h3 className="portfolio__title">Парикмахерские услуги</h3>
               <div className="portfolio__cover-img">
                 <img
@@ -41,7 +41,7 @@ export const Portfolio = () => {
             </Link>
           </li>
           <li className="portfolio__item">
-            <Link  to="portfolio/photosessions">
+            <Link  to="/photosessions">
               <h3 className="portfolio__title">Фотосессии под ключ</h3>
               <div className="portfolio__cover-img">
                 <img
@@ -52,7 +52,7 @@ export const Portfolio = () => {
             </Link>
           </li>
           <li className="portfolio__item">
-            <Link to="portfolio/backstage">
+            <Link to="/backstage">
               <h3 className="portfolio__title">Backstage</h3>
               <div className="portfolio__cover-img">
                 <img

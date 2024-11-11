@@ -14,7 +14,7 @@ type MenuItemProps = {
 export const MenuItem = ({ancorData, setModalMenuOpen}: MenuItemProps) => {
   return (
     <li className="modal-menu__item" >
-        <HashLink onClick={()=>setModalMenuOpen(false)} smooth to={ancorData.path} className="modal-menu__link">
+        <HashLink onClick={() => setModalMenuOpen(false)} smooth to={ancorData.path} className="modal-menu__link">
             {ancorData.title}
         </HashLink>
     </li>

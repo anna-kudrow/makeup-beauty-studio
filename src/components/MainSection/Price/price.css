@@ -9,7 +9,6 @@
 }
 
 .price__card {
-  background-color: var(--soft-pink);
   padding: 30px 25px;
   min-width: 260px;
   max-width: 350px;
@@ -23,6 +22,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  background: linear-gradient(
+    to bottom right,
+    #faf9fe 0%,
+    #faf9fe 18%,
+    #f2f0fb 36%,
+    #e3d2f5 64%,
+    #cdb2e1 86%
+  );
 }
 
 .title__service {

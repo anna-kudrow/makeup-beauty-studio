@@ -22,31 +22,6 @@
   gap: 15px;
 }
 
-.logo__link {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  color: var(--head-text);
-}
-
-.logo-link__upper {
-  color: var(--head-text);
-  font-family: "Forum", serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.logo-link__bottom {
-  font-family: "Forum", serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .instagram-link {
   display: block;
   width: 25px;
@@ -70,27 +45,12 @@
   line-height: normal;
 }
 
-.header__menu-toggle {
-  width: 25px;
-  height: 25px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .svg-inline--fa .fa-bars {
   width: 22px;
   height: 22px;
 }
 
 @media (min-width: 768px) {
-  .logo-link__upper {
-    font-size: 16px;
-  }
-
-  .logo-link__bottom {
-    font-size: 13px;
-  }
-
   .instagram-link {
     width: 27px;
     height: 27px;
@@ -115,14 +75,6 @@
     gap: 20px;
   }
 
-  .logo-link__upper {
-    font-size: 20px;
-  }
-
-  .logo-link__bottom {
-    font-size: 16px;
-  }
-
   .header__menu {
     display: none;
   }
@@ -133,9 +85,5 @@
 
   .header__right-box {
     gap: 70px;
-  }
-
-  .header__menu-toggle {
-    display: none;
   }
 }

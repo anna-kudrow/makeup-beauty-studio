@@ -1,7 +1,5 @@
-import { HashLink } from 'react-router-hash-link';
 import './Promo.css';
-
-
+import { StartButton } from '@/ui/StartButton/StartButton';
 
 export const Promo = () => {
 
@@ -32,11 +30,7 @@ export const Promo = () => {
             </div>
           </div>
         </div>
-        <button className="start-button" type="button">
-          <HashLink smooth to="/#form" >
-            Начать преображение
-          </HashLink> 
-        </button>
+        <StartButton />
       </div>
     </section>
   );

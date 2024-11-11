@@ -121,7 +121,7 @@ export const ClientForm = () => {
       </AlertDialogDescription>
     </AlertDialogHeader>
     <AlertDialogFooter>
-      <AlertDialogCancel   style={{ backgroundColor: '#ebe1f4b3', color: '#363636' }} onClick={handleAlertClose}>Выход</AlertDialogCancel>
+      <AlertDialogCancel   style={{ backgroundColor: '#ebe1f4b3', color: '#363636' }} onClick={handleAlertClose}>Ок</AlertDialogCancel>
     </AlertDialogFooter>
   </AlertDialogContent>
   : null}

@@ -18,7 +18,7 @@ function DesktopNav() {
           </HashLink>
         </li>
         <li className="desktop-menu__item">
-          <HashLink smooth to="/#gallery" className="desktop-menu__link">
+          <HashLink smooth to="/#portfolio" className="desktop-menu__link">
             ГАЛЕРЕЯ
           </HashLink>
         </li>
