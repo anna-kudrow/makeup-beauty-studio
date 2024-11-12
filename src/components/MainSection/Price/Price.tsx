@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { ButtonPrice } from "../../../ui/ButtonPrice/ButtonPrice";
 import "./price.css";
 
 export const Price = () => {
+
+
 	return (
 		<section className="price" id="services">
 			<div className="price__inner">

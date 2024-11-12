@@ -57,3 +57,32 @@
   color: var(--purple-text);
   margin-bottom: 5px;
 }
+
+@media (min-width: 1440px) {
+  .price-box {
+    padding: 46px 20px 50px 60px;
+  }
+
+  .price-table__service,
+  .price-table__amount {
+    font-size: 18px;
+  }
+
+  .price-table__length {
+    font-size: 14px;
+  }
+
+  .price-table {
+    row-gap: 11px;
+    margin-bottom: 45px;
+  }
+
+  .price-from {
+    font-size: 14px;
+  }
+
+  .title-inner-price {
+    border-top: 2px solid #d0c6f6;
+    padding-top: 35px;
+  }
+}

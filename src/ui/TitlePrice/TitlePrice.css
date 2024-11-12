@@ -16,3 +16,14 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+@media (min-width: 1440px) {
+  .title-price {
+    font-size: 32px;
+  }
+
+  .subtitle-price {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+}
