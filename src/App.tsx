@@ -7,6 +7,8 @@ import { HairServicePrice } from './components/MainSection/Price/HairServicePric
 import { MakeUpPrice } from './components/MainSection/Price/MakeUpPrice.tsx';
 import { PhotoshootPrice } from './components/MainSection/Price/PhotoshootPrice.tsx';
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",

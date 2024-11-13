@@ -32,7 +32,7 @@ export const MakeUpPrice = () => {
             <h3 className="title-inner-price">Свадебный образ</h3>
             <div className="price-table price-table__single">
                 <p className="price-table__service">Свадебный образ без репетиции </p>
-                <span className="price-table__amount">1400</span>
+                <span className="price-table__amount">14000</span>
                 <p className="price-table__service">Свадебный образ с репетицией</p>
                 <span className="price-table__amount">23000</span>
                 <p className="price-table__service">Свадебный образ + репетиция + смена образа перед рестораном + сопровождение весь день</p>
