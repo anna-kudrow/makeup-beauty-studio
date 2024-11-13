@@ -50,7 +50,9 @@ export const Price = () => {
 							<li className="services__item">Фотограф</li>
 							<li className="services__item">Стилист по одежде</li>
 						</ul>
-						<ButtonPrice />
+						<Link to='/photoshoot-price'>
+							<ButtonPrice />
+						</Link>
 					</li>
 				</ul>
 			</div>

@@ -5,6 +5,7 @@ import { MainSection } from "./components/MainSection/MainSection.tsx";
 import { Layout } from './layout/Layout.tsx';
 import { HairServicePrice } from './components/MainSection/Price/HairServicePrice.tsx';
 import { MakeUpPrice } from './components/MainSection/Price/MakeUpPrice.tsx';
+import { PhotoshootPrice } from './components/MainSection/Price/PhotoshootPrice.tsx';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/photoshoot-price",
-        element: <></>,
+        element: <PhotoshootPrice/>,
       },
     ],
   },
