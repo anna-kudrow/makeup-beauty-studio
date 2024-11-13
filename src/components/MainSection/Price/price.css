@@ -32,6 +32,14 @@
   );
 }
 
+.price__card:hover {
+  transition:
+    transform 0.8s,
+    filter 0.5s;
+  transform: scale(1.01);
+  filter: drop-shadow(3px 5px 11px rgb(148, 119, 148));
+}
+
 .title__service {
   font-family: "Forum", serif;
   font-size: 24px;

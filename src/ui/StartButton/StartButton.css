@@ -8,7 +8,7 @@
   background: linear-gradient(
     90deg,
     rgba(95, 43, 106, 0.56) 5.07%,
-    rgba(105, 54, 117, 0.57) 13.67%,
+    rgba(96, 48, 106, 0.57) 13.67%,
     rgba(115, 66, 130, 0.59) 23.17%,
     rgba(185, 147, 214, 0.7) 85.84%
   );
@@ -16,6 +16,10 @@
   border: transparent;
   cursor: pointer;
   margin-bottom: 40px;
+}
+
+.start-button:active {
+  background: #9d77ac;
 }
 
 @media (min-width: 1440px) {
