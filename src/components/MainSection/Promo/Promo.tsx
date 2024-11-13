@@ -1,5 +1,6 @@
-import './Promo.css';
 import { StartButton } from '@/ui/StartButton/StartButton';
+import './Promo.css';
+
 
 export const Promo = () => {
 
@@ -30,7 +31,7 @@ export const Promo = () => {
             </div>
           </div>
         </div>
-        <StartButton addClass=' lg:absolute top-[544px] left-[251px]' />
+        <StartButton addClass='lg:absolute top-[544px] left-[251px]' />
       </div>
     </section>
   );

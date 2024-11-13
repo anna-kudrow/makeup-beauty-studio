@@ -4,11 +4,13 @@ import { StartButton } from '@/ui/StartButton/StartButton';
 
 export const HairServicePrice = () => {
 
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
 
   return (
     <>
     <div className="price-box">
       <TitlePrice title="Парикмахерские услуги" subtitle="Мастер Светлана" />
+      <div className='border-price'>
       <div className="price-table">
         <span className="price-table__length length1">длина 1 </span>
         <span className="price-table__length">длина 2 </span>
@@ -167,10 +169,12 @@ export const HairServicePrice = () => {
         <p className="price-table__service">Контуринг бороды</p>
         <span className="price-table__amount">1000</span>
       </div>
+      </div>
       <TitlePrice
         title="Глубокое восстановление волос "
         subtitle="Мастер Светлана"
       />
+      <div className='border-price'>
       <h3 className="title-inner-price" style={{ borderTop: "none" }}>
         Холодный ботокс для волос KV-1 (Испания)
       </h3>
@@ -246,6 +250,7 @@ export const HairServicePrice = () => {
         <span className="price-table__amount">450</span>
          <p className="price-table__service ">Защита во время окрашивания</p>
         <span className="price-table__amount">5 ml - 250</span>
+       </div>
        </div>
     </div>
     <StartButton addClass='flex mx-auto '/>

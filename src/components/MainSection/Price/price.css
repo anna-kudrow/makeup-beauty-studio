@@ -136,13 +136,17 @@
   margin-bottom: 30px;
 }
 
+/* .border-price {
+
+} */
+
 @media (min-width: 1440px) {
   .price {
     padding-bottom: 290px;
   }
 
   .price-box {
-    padding: 46px 20px 50px 60px;
+    padding: 46px 40px 0px 40px;
   }
 
   .price-table__service,
@@ -176,5 +180,11 @@
   .additional-price-info {
     font-size: 16px;
     margin-bottom: 45px;
+  }
+
+  .border-price {
+    border: 1px solid #d0c6f6;
+    padding: 30px 80px;
+    margin-bottom: 80px;
   }
 }
