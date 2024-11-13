@@ -1,12 +1,9 @@
 import { TitlePrice } from "@/ui/TitlePrice/TitlePrice";
-import "./HairServicePrice.css";
+import './price.css'
 import { StartButton } from '@/ui/StartButton/StartButton';
-import { useEffect } from 'react';
 
 export const HairServicePrice = () => {
-useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+
 
   return (
     <>

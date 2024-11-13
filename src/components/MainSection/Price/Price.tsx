@@ -36,7 +36,9 @@ export const Price = () => {
 							<li className="services__item">Свадебный образ</li>
 							<li className="services__item">На мероприятие</li>
 						</ul>
-						<ButtonPrice />
+						<Link to='/makeup-price'>
+							<ButtonPrice />
+						</Link>
 					</li>
 					<li className="price__card">
 						<p className="card__title">

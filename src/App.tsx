@@ -3,7 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { PortfolioCarousel } from "./components/MainSection/Portfolio/PortfolioCarousel/PortfolioCarousel.tsx";
 import { MainSection } from "./components/MainSection/MainSection.tsx";
 import { Layout } from './layout/Layout.tsx';
-import { HairServicePrice } from './components/MainSection/Price/HairServicePrice/HairServicePrice.tsx';
+import { HairServicePrice } from './components/MainSection/Price/HairServicePrice.tsx';
+import { MakeUpPrice } from './components/MainSection/Price/MakeUpPrice.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/makeup-price",
-        element: <></>,
+        element: <MakeUpPrice/>,
       },
       {
         path: "/photoshoot-price",
