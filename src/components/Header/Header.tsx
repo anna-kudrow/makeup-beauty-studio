@@ -18,7 +18,7 @@ export const Header = () => {
               className="instagram-link"
             ></Link>
             <Link to="tel:+79037522505" className="phone-num">
-              8-903-752-25-05
+              8-903-752-25-05 lala
             </Link>
           </div>
           <HeaderToggleMenu/>
