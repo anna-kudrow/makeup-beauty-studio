@@ -1,5 +1,5 @@
-import { StartButton } from "@/ui/StartButton/StartButton";
-import { TitlePrice } from "@/ui/TitlePrice/TitlePrice";
+import { StartButton } from "../../../ui/StartButton/StartButton";
+import { TitlePrice } from "../../../ui/TitlePrice/TitlePrice";
 import "./price.css";
 
 export const PhotoshootPrice = () => {

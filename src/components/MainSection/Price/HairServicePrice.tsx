@@ -1,6 +1,6 @@
-import { TitlePrice } from "@/ui/TitlePrice/TitlePrice";
+import { TitlePrice } from "../../../ui/TitlePrice/TitlePrice";
 import './price.css'
-import { StartButton } from '@/ui/StartButton/StartButton';
+import { StartButton } from '../../../ui/StartButton/StartButton';
 
 export const HairServicePrice = () => {
 

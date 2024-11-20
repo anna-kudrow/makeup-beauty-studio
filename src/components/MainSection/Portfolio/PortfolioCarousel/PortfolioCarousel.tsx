@@ -1,15 +1,11 @@
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-// } from "@/components/ui/carousel"
 
-import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel"
-import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, photosessionsPhotoData, weddingsPhotoData } from '@/lib/photoData';
+
+import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "../../../../components/ui/carousel"
+import { backstagePhotoData, eventsPhotoData, hairstylePhotoData, photosessionsPhotoData, weddingsPhotoData } from '../../../../lib/photoData';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './PortfolioCarousel.css'
-import { CATEGORY } from '@/lib/const';
+import { CATEGORY } from '../../../../lib/const';
 
 export const PortfolioCarousel = () => {
   const [api, setApi] = useState<CarouselApi>()

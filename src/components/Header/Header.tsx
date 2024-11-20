@@ -2,8 +2,8 @@ import './Header.css';
 import DesktopNav from "./DesktopNav.tsx/DesktopNav";
 
 import { Link } from 'react-router-dom';
-import { HeaderLogo } from '@/ui/HeaderLogo/HeaderLogo';
-import { HeaderToggleMenu } from '@/ui/HeaderToggleMenu/HeaderToggleMenu';
+import { HeaderLogo } from '../../ui/HeaderLogo/HeaderLogo';
+import { HeaderToggleMenu } from '../../ui/HeaderToggleMenu/HeaderToggleMenu';
 
 export const Header = () => {
 

@@ -1,6 +1,6 @@
-import { StartButton } from "@/ui/StartButton/StartButton";
+import { StartButton } from "../../../ui/StartButton/StartButton";
 import "./price.css";
-import { TitlePrice } from "@/ui/TitlePrice/TitlePrice";
+import { TitlePrice } from "../../../ui/TitlePrice/TitlePrice";
 
 export const MakeUpPrice = () => {
   return (

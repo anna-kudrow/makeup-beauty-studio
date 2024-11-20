@@ -2,7 +2,7 @@ import "./HeaderToggleMenu.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { ModalMenu } from "@/components/Header/ModalMenu/ModalMenu";
+import { ModalMenu } from "../../components/Header/ModalMenu/ModalMenu";
 
 export const HeaderToggleMenu = () => {
   const [modalMenuOpen, setModalMenuOpen] = useState(false);

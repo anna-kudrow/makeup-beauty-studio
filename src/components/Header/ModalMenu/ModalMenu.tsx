@@ -1,6 +1,6 @@
 import './ModalMenu.css';
 import { useEffect, useRef } from 'react';
-import { ANCORS_DATA } from '@/lib/const';
+import { ANCORS_DATA } from '../../../lib/const';
 import { MenuItem } from './MenuItem/MenuItem';
 
 type Props = {

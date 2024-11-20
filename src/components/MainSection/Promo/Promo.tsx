@@ -1,4 +1,5 @@
-import { StartButton } from '@/ui/StartButton/StartButton';
+
+import { StartButton } from '../../../ui/StartButton/StartButton';
 import './Promo.css';
 
 
