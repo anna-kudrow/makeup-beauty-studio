@@ -5,13 +5,8 @@
   line-height: normal;
   padding: 15px 68px;
   border-radius: 20px;
-  background: linear-gradient(
-    90deg,
-    rgba(95, 43, 106, 0.56) 5.07%,
-    rgba(96, 48, 106, 0.57) 13.67%,
-    rgba(115, 66, 130, 0.59) 23.17%,
-    rgba(185, 147, 214, 0.7) 85.84%
-  );
+  background: -webkit-linear-gradient(90deg, #ad89d2,#b897d8,#bda0da,#c8ade1,#d7c5e7);                        
+  background: linear-gradient(90deg, #ad89d2,#b897d8,#bda0da,#c8ade1,#d7c5e7);                                                                                    
   box-shadow: 1px 1px 4px 3px rgba(185, 147, 214, 0.9) inset;
   border: transparent;
   cursor: pointer;
@@ -19,7 +14,7 @@
 }
 
 .start-button:active {
-  background: #9d77ac;
+  background: #a16db5;
 }
 
 @media (min-width: 1440px) {
