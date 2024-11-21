@@ -9,6 +9,11 @@ import { Header } from './components/Header/Header.tsx';
 import { Footer } from './components/Footer/Footer.tsx';
 
 function App() {
+  const redirectPath = window.location.search.slice(2); // Убираем "?/" из начала
+
+  if (redirectPath) {
+    window.history.replaceState({}, "", redirectPath); // Заменяем URL без перезагрузки
+  }
   return (
       <Router>
         <Header/>
