@@ -7,8 +7,14 @@ import { MakeUpPrice } from './components/MainSection/Price/MakeUpPrice.tsx';
 import { PhotoshootPrice } from './components/MainSection/Price/PhotoshootPrice.tsx';
 import { Header } from './components/Header/Header.tsx';
 import { Footer } from './components/Footer/Footer.tsx';
+import { Reviews } from './components/Reviews/Reviews.tsx';
 
 function App() {
+  const redirectPath = window.location.search.slice(2); // Убираем "?/" из начала
+
+  if (redirectPath) {
+    window.history.replaceState({}, "", redirectPath); // Заменяем URL без перезагрузки
+  }
   return (
       <Router>
         <Header/>
@@ -18,6 +24,7 @@ function App() {
             <Route path="/hair-price" element={<HairServicePrice />} />
             <Route path="/makeup-price" element={<MakeUpPrice />} />
             <Route path="/photoshoot-price" element={<PhotoshootPrice />} />
+            <Route path="/reviews" element={<Reviews />} />
           </Routes>
         <Footer/>
     </Router>

@@ -1,4 +1,5 @@
-import './Adv.css';
+import { Link } from "react-router-dom";
+import "./Adv.css";
 
 export const Adv = () => {
   return (
@@ -38,7 +39,9 @@ export const Adv = () => {
                   <li className="adv__info-item adv__text">
                     Постоянно повышаем квалификацию
                   </li>
-                  <li className="adv__info-item adv__text">Знаем трендовые образы </li>
+                  <li className="adv__info-item adv__text">
+                    Знаем трендовые образы{" "}
+                  </li>
                   <li className="adv__info-item adv__text">
                     Учитываем любые индивидуальные пожелания
                   </li>
@@ -61,9 +64,11 @@ export const Adv = () => {
                   </span>
                   благодарных отзывов
                 </p>
-                <button type="button" className="adv__button">
-                  Читать отзывы
-                </button>
+                <Link to="/reviews">
+                  <button type="button" className="adv__button">
+                    Читать отзывы
+                  </button>
+                </Link>
               </div>
               <div className="adv__item-photo">
                 <img

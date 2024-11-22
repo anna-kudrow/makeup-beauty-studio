@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './PortfolioCarousel.css'
 import { CATEGORY } from '../../../../lib/const';
+import { TitleCarousel } from '@/ui/TitleCarousel';
 
 export const PortfolioCarousel = () => {
   const [api, setApi] = useState<CarouselApi>()
@@ -43,7 +44,7 @@ export const PortfolioCarousel = () => {
   return (
         <Carousel className='p-2 pt-6 lg:p-5' setApi={setApi} opts={{loop: true}}>
           <div className='flex justify-between w-full mb-5 lg:pl-10 lg:pr-10'>
-            <h2 className='lg:text-xl'>{currentTitle}</h2>
+            <TitleCarousel text={currentTitle}/>
             <div className='flex gap-3'>
               <button className='lg:w-20' onClick={()=> api?.scrollTo(current - 1)}><img className='w-full' src="/images/portfolio/gallery-left.svg" alt="перелистнуть влево" /></button>
               <button className='lg:w-20' onClick={()=> api?.scrollTo(current + 1)}><img className='w-full' src="/images/portfolio/gallery-right.svg" alt="перелистнуть вправо" /></button>
