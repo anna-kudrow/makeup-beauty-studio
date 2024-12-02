@@ -77,19 +77,19 @@ export const MakeUpPrice = () => {
             <p className="price-table__service">
               Полный образ (макияж +укладка) с выездом{" "}
             </p>
-            <span className="price-table__amount">7000</span>
+            <span className="price-table__amount">8000</span>
             <p className="price-table__service">
               Полный образ (макияж +укладка) в салоне{" "}
             </p>
-            <span className="price-table__amount">6000</span>
+            <span className="price-table__amount">7000</span>
             <p className="price-table__service">Макияж с выездом</p>
-            <span className="price-table__amount">4000</span>
+            <span className="price-table__amount">5000</span>
             <p className="price-table__service">Макияж в салоне</p>
-            <span className="price-table__amount">3000</span>
+            <span className="price-table__amount">3500</span>
             <p className="price-table__service">Укладка с выездом</p>
-            <span className="price-table__amount">4000</span>
+            <span className="price-table__amount">5000</span>
             <p className="price-table__service">Укладка в салоне</p>
-            <span className="price-table__amount">3000</span>
+            <span className="price-table__amount">3500</span>
             <p className="price-table__service">Экспресс макияж</p>
             <span className="price-table__amount">2200</span>
             <p className="price-table__service">Экспресс укладка</p>
