@@ -112,7 +112,7 @@
 
 @media (min-width: 1440px) {
   .promo {
-    padding: 0px 40px;
+    padding: 100px 40px 0;
     height: 85vh;
     box-sizing: border-box;
   }

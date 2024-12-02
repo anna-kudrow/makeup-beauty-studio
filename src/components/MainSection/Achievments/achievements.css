@@ -34,6 +34,11 @@
 }
 
 @media (min-width: 1440px) {
+  .achievements {
+    padding-top: 200px;
+    padding-bottom: 135px;
+  }
+
   .achievements__item,
   .achievements__summary {
     font-size: 19px;

@@ -136,13 +136,11 @@
   margin-bottom: 30px;
 }
 
-/* .border-price {
-
-} */
 
 @media (min-width: 1440px) {
   .price {
     padding-bottom: 290px;
+    padding-top: 200px;
   }
 
   .price-box {
@@ -186,5 +184,9 @@
     border: 1px solid #d0c6f6;
     padding: 30px 80px;
     margin-bottom: 80px;
+  }
+
+  .price__cards {
+    gap: 60px;
   }
 }

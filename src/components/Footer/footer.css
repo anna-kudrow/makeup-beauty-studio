@@ -55,7 +55,7 @@
 
 @media (min-width: 1440px) {
   .footer__inner {
-    padding: 40px 40px 60px;
+    padding: 100px 40px 100px;
     display: flex;
     border-radius: 35px;
     background-color: var(--light-purple);

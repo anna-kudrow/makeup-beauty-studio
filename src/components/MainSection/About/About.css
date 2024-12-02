@@ -51,7 +51,7 @@
 
 @media (min-width: 1440px) {
   .about {
-    padding: 100px 70px 175px;
+    padding: 150px 120px 200px;
   }
 
   .about__inner {
@@ -69,18 +69,13 @@
     order: 1;
   }
 
-  .about__anastasiya {
+  .about__anastasiya, .about__svetlana {
     display: flex;
-    gap: 15px;
-  }
-
-  .about__svetlana {
-    display: flex;
-    gap: 15px;
+    gap: 22px;
   }
 
   .about__title {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 
   .about__small-title {

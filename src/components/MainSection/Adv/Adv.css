@@ -4,7 +4,7 @@
 
 .adv__title {
   margin-bottom: 15px;
-  padding-left: 15%;
+  margin-left: 15%;
 }
 
 .adv__list {
@@ -92,12 +92,12 @@
 
 @media (min-width: 1440px) {
   .adv {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 200px 70px 135px;
   }
   .adv__title {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     text-align: left;
+    margin-left: 25%;
   }
 
   .adv__item {
@@ -129,7 +129,8 @@
 
   .adv__list {
     justify-content: space-evenly;
-    row-gap: 50px;
+    gap: 70px;
+    column-gap: 70px;
   }
 
   .adv__button {

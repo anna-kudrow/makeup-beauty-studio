@@ -32,7 +32,7 @@ export const Promo = () => {
             </div>
           </div>
         </div>
-        <StartButton addClass='lg:absolute top-[544px] left-[251px]' />
+        <StartButton addClass=' xl:absolute xl:top-[700px] xl:left-[22%]' />
       </div>
     </section>
   );

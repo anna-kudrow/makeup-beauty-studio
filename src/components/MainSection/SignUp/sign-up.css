@@ -58,7 +58,7 @@
 
 @media (min-width: 1440px) {
   .sign-up {
-    height: 500px;
+    height: 700px;
     box-sizing: border-box;
     background-position: center;
     padding-top: 50px;
@@ -72,7 +72,7 @@
   .sign-up__text {
     font-size: 16px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 80px;
   }
 
   .sign-up__input,
